@@ -1,0 +1,70 @@
+2023-03-26T02:22:20-04:00 SPG_RNAseq_pipeline: 1. Starting FASTQ filtering with fastp
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 69820327
+total bases: 10542869377
+Q20 bases: 9947559575(94.3534%)
+Q30 bases: 9520377089(90.3016%)
+
+Read2 before filtering:
+total reads: 69820327
+total bases: 10542869377
+Q20 bases: 9860768785(93.5302%)
+Q30 bases: 9244777136(87.6875%)
+
+Read1 after filtering:
+total reads: 66921975
+total bases: 7277649581
+Q20 bases: 7173934263(98.5749%)
+Q30 bases: 6967195707(95.7341%)
+
+Read2 after filtering:
+total reads: 66921975
+total bases: 7284776995
+Q20 bases: 7145994406(98.0949%)
+Q30 bases: 6872810622(94.3448%)
+
+Filtering result:
+reads passed filter: 133843950
+reads failed due to low quality: 5216622
+reads failed due to too many N: 12296
+reads failed due to too short: 567786
+reads with adapter trimmed: 102348415
+bases trimmed due to adapters: 5222512220
+
+Duplication rate: 21.5607%
+
+Insert size peak (evaluated by paired-end reads): 97
+
+JSON report: /dev/null
+HTML report: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/actb_d1/rna_seq/hnrnpl/data/filteredFastq//KO3.html
+
+fastp --in1 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/actb_d1/rna_seq/hnrnpl/data/raw_fastq/NS.1187.001.UDI0046_i7---UDI0046_i5.DIN-GS_ko3_d1_R1.fastq.gz --in2 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/actb_d1/rna_seq/hnrnpl/data/raw_fastq/NS.1187.001.UDI0046_i7---UDI0046_i5.DIN-GS_ko3_d1_R2.fastq.gz --out1 /localscratch/subrampg.14996961.0/16596/KO3//KO3_R1.filteredFastq.gz --out2 /localscratch/subrampg.14996961.0/16596/KO3//KO3_R2.filteredFastq.gz --detect_adapter_for_pe --thread 8 --html /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/actb_d1/rna_seq/hnrnpl/data/filteredFastq//KO3.html --json /dev/null 
+fastp v0.23.1, time used: 246 seconds
+2023-03-26T02:26:43-04:00 SPG_RNAseq_pipeline: 1. Done FASTQ filtering.
+2023-03-26T02:26:43-04:00 SPG_RNAseq_pipeline: 2. Starting aligning with STAR
+	STAR --runThreadN 8 --genomeDir /lustre07/scratch/subrampg/binf_analyses_data//common/star_indexes/mm10/sjdbOH_149/ --readFilesIn /localscratch/subrampg.14996961.0/16596/KO3//KO3_R1.filteredFastq.gz /localscratch/subrampg.14996961.0/16596/KO3//KO3_R2.filteredFastq.gz --readFilesCommand gunzip -c --outSAMtype BAM Unsorted --outFileNamePrefix /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/actb_d1/rna_seq/hnrnpl/data/alignedBAM//KO3_
+	STAR version: 2.7.9a   compiled: 2021-07-08T15:06:22+00:00 build-node.computecanada.ca:/tmp/ebuser/avx2/STAR/2.7.9a/GCCcore-9.3.0/STAR-2.7.9a/source
+Mar 26 02:26:44 ..... started STAR run
+Mar 26 02:26:44 ..... loading genome
+Mar 26 02:27:15 ..... started mapping
+Mar 26 02:36:48 ..... finished mapping
+Mar 26 02:36:55 ..... finished successfully
+2023-03-26T02:36:56-04:00 SPG_RNAseq_pipeline: 2. Done STAR alignment.
+FILT_FASTQ_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/actb_d1/rna_seq/hnrnpl/data/filteredFastq/
+ALIGNED_BAM_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/actb_d1/rna_seq/hnrnpl/data/alignedBAM/
+2023-03-26T02:36:58-04:00 SPG_RNAseq_pipeline: Updating BAM progress file
+WT1
+WT2
+WT3
+KO1
+KO2
+KO3	Done
+Waiting for WT1

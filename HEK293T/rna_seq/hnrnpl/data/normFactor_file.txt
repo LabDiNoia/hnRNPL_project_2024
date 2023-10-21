@@ -1,0 +1,5 @@
+SampleID	Norm
+CTLi1	1
+CTLi2	1
+hnRNPLi1	1
+hnRNPLi2	1

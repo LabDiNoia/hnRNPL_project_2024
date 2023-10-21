@@ -1,0 +1,143 @@
+2023-03-27T11:05:24-04:00 SPG_RNAseq_pipeline: 3. Starting second pass with STAR
+	STAR --runThreadN 16 --genomeDir /lustre07/scratch/subrampg/binf_analyses_data//common/star_indexes/hg38/sjdbOH_99/ --readFilesIn /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/filteredFastq//shhnRNPL2_R1.filteredFastq.gz /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/filteredFastq//shhnRNPL2_R2.filteredFastq.gz --readFilesCommand gunzip -c --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM//shhnRNPL2_2pass_ --sjdbFileChrStartEnd /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM/shCTL1_SJ.out.tab /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM/shCTL2_SJ.out.tab /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM/shhnRNPL1_SJ.out.tab /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM/shhnRNPL2_SJ.out.tab
+	STAR version: 2.7.9a   compiled: 2021-07-08T15:06:22+00:00 build-node.computecanada.ca:/tmp/ebuser/avx2/STAR/2.7.9a/GCCcore-9.3.0/STAR-2.7.9a/source
+Mar 27 11:05:24 ..... started STAR run
+Mar 27 11:05:25 ..... loading genome
+Mar 27 11:06:06 ..... inserting junctions into the genome indices
+Mar 27 11:07:57 ..... started mapping
+Mar 27 11:10:15 ..... finished mapping
+Mar 27 11:10:16 ..... started sorting BAM
+Mar 27 11:10:58 ..... finished successfully
+2023-03-27T11:11:02-04:00 SPG_RNAseq_pipeline: 3. Indexing BAM
+2023-03-27T11:11:07-04:00 SPG_RNAseq_pipeline: 3. Done STAR alignment and indexing.
+created virtual environment CPython3.8.10.final.0-64 in 634ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15036822.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/alabaster-0.7.12+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Babel-2.10.3+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/certifi-2022.9.24+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/charset_normalizer-2.1.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/contourpy-1.0.5+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cycler-0.11.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/deepTools-3.5.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/deeptoolsintervals-0.1.9+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/docutils-0.19+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fonttools-4.38.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/idna-3.4+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/imagesize-1.4.1+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_metadata-5.2.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Jinja2-3.1.2+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/kiwisolver-1.4.4+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/MarkupSafe-2.1.1+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/matplotlib-3.6.1+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.23.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/numpydoc-1.1.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/packaging-21.3+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/Pillow-9.2.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/plotly-5.11.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/py2bit-0.3.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/pyBigWig-0.3.18+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Pygments-2.13.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.0.9+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/pysam-0.20.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.8.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pytz-2022.7+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/requests-2.28.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scipy-1.9.3+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/snowballstemmer-2.2.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Sphinx-5.1.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sphinxcontrib_applehelp-1.0.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sphinxcontrib_devhelp-1.0.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sphinxcontrib_htmlhelp-2.0.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sphinxcontrib_jsmath-1.0.1+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sphinxcontrib_qthelp-1.0.3+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sphinxcontrib_serializinghtml-1.1.5+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tenacity-8.1.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/urllib3-1.26.13+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/zipp-3.11.0+computecanada-py3-none-any.whl
+Installing collected packages: snowballstemmer, pytz, pysam, pyBigWig, py2bit, deeptoolsintervals, alabaster, zipp, urllib3, tenacity, sphinxcontrib-serializinghtml, sphinxcontrib-qthelp, sphinxcontrib-jsmath, sphinxcontrib-htmlhelp, sphinxcontrib-devhelp, sphinxcontrib-applehelp, six, pyparsing, Pygments, Pillow, numpy, MarkupSafe, kiwisolver, imagesize, idna, fonttools, docutils, cycler, charset_normalizer, certifi, Babel, scipy, requests, python-dateutil, plotly, packaging, Jinja2, importlib_metadata, contourpy, Sphinx, matplotlib, numpydoc, deepTools
+Successfully installed Babel-2.10.3+computecanada Jinja2-3.1.2+computecanada MarkupSafe-2.1.1+computecanada Pillow-9.2.0+computecanada Pygments-2.13.0+computecanada Sphinx-5.1.1+computecanada alabaster-0.7.12+computecanada certifi-2022.9.24+computecanada charset_normalizer-2.1.1+computecanada contourpy-1.0.5+computecanada cycler-0.11.0+computecanada deepTools-3.5.0+computecanada deeptoolsintervals-0.1.9+computecanada docutils-0.19+computecanada fonttools-4.38.0+computecanada idna-3.4+computecanada imagesize-1.4.1+computecanada importlib_metadata-5.2.0+computecanada kiwisolver-1.4.4+computecanada matplotlib-3.6.1+computecanada numpy-1.23.0+computecanada numpydoc-1.1.0+computecanada packaging-21.3+computecanada plotly-5.11.0+computecanada py2bit-0.3.0+computecanada pyBigWig-0.3.18+computecanada pyparsing-3.0.9+computecanada pysam-0.20.0+computecanada python-dateutil-2.8.2+computecanada pytz-2022.7+computecanada requests-2.28.1+computecanada scipy-1.9.3+computecanada six-1.16.0+computecanada snowballstemmer-2.2.0+computecanada sphinxcontrib-applehelp-1.0.2+computecanada sphinxcontrib-devhelp-1.0.2+computecanada sphinxcontrib-htmlhelp-2.0.0+computecanada sphinxcontrib-jsmath-1.0.1+computecanada sphinxcontrib-qthelp-1.0.3+computecanada sphinxcontrib-serializinghtml-1.1.5+computecanada tenacity-8.1.0+computecanada urllib3-1.26.13+computecanada zipp-3.11.0+computecanada
+2023-03-27T11:12:37-04:00 SPG_RNAseq_pipeline: 4. Making individual bigwig files..
+with lib size normalization (RPGC)
+Due to filtering, 54.38382074550488% of the aforementioned alignments will be used 27265952.31318282
+normalization: 1x (effective genome size 2652783500)
+bamFilesList: ['/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM//shhnRNPL2_2pass_Aligned.sortedByCoord.out.bam']
+binLength: 1
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 64
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 1
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+filter_strand: forward
+Offset: [1, -1]
+Due to filtering, 45.61617925449512% of the aforementioned alignments will be used 22870194.68681718
+normalization: 1x (effective genome size 2652783500)
+bamFilesList: ['/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM//shhnRNPL2_2pass_Aligned.sortedByCoord.out.bam']
+binLength: 1
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 64
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 1
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+filter_strand: reverse
+Offset: [1, -1]
+2023-03-27T11:32:26-04:00 SPG_RNAseq_pipeline: 4. Done making individual bigwig files..
+FILT_FASTQ_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/filteredFastq/
+ALIGNED_BAM_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM/
+BW_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/results/bw_files/
+2023-03-27T11:32:26-04:00 SPG_RNAseq_pipeline: Updating BAM progress file
+shCTL1	Done
+shCTL2
+shhnRNPL1
+shhnRNPL2	Done
+Waiting for shCTL2

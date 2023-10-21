@@ -1,0 +1,9 @@
+SampleID	Read_num	Original_file_name	Condition	Replicate
+CTLi2	1	SRR2318169_1.fastq.gz	CTLi	2
+CTLi2	2	SRR2318169_2.fastq.gz	CTLi	2
+CTLi3	1	SRR2318170_1.fastq.gz	CTLi	3
+CTLi3	2	SRR2318170_2.fastq.gz	CTLi	3
+hnRNPLi2	1	SRR2318172_1.fastq.gz	hnRNPLi	2
+hnRNPLi2	2	SRR2318172_2.fastq.gz	hnRNPLi	2
+hnRNPLi3	1	SRR2318173_1.fastq.gz	hnRNPLi	3
+hnRNPLi3	2	SRR2318173_2.fastq.gz	hnRNPLi	3

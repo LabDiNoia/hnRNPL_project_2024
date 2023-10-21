@@ -1,0 +1,926 @@
+created virtual environment CPython3.8.10.final.0-64 in 591ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15017835.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Cython-0.29.33+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: cython
+Successfully installed cython-0.29.33+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: numpy
+Successfully installed numpy-1.24.2+computecanada
+
+The following have been reloaded with a version change:
+  1) r/4.2.1 => r/4.2.2
+
+2023-03-26T19:46:51-04:00 SPG_RNAseq_pipeline: 7. Starting rMATS..
+gtf: 29.49112319946289
+There are 62757 distinct gene ID in the gtf file
+There are 252972 distinct transcript ID in the gtf file
+There are 38714 one-transcript genes in the gtf file
+There are 1649215 exons in the gtf file
+There are 26177 one-exon transcripts in the gtf file
+There are 23377 one-transcript genes with only one exon in the transcript
+Average number of transcripts per gene is 4.030977
+Average number of exons per transcript is 6.519358
+Average number of exons per transcript excluding one-exon tx is 7.156410
+Average number of gene per geneGroup is 8.662752
+statistic: 0.028789281845092773
+
+read outcome totals across all BAMs
+USED: 246289068
+NOT_PAIRED: 287
+NOT_NH_1: 59598180
+NOT_EXPECTED_CIGAR: 4684233
+NOT_EXPECTED_READ_LENGTH: 0
+NOT_EXPECTED_STRAND: 0
+EXON_NOT_MATCHED_TO_ANNOTATION: 2638901
+JUNCTION_NOT_MATCHED_TO_ANNOTATION: 990184
+CLIPPED: 0
+total: 314200853
+outcomes by BAM written to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS//tmp_rMATS_dir/2023-03-26-19_46_51_702669_read_outcomes_by_bam.txt
+
+novel: 315.15141701698303
+The splicing graph and candidate read have been saved into /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS//tmp_rMATS_dir/2023-03-26-19_46_51_702669_*.rmats
+save: 158.3513388633728
+loadsg: 0.5221915245056152
+
+==========
+Done processing each gene from dictionary to compile AS events
+Found 163465 exon skipping events
+Found 34274 exon MX events
+Found 111069 alt SS events
+There are 65833 alt 3 SS events and 45236 alt 5 SS events.
+Found 26826 RI events
+==========
+
+ase: 10.467575073242188
+count: 65.84463310241699
+Processing count files.
+Done processing count files.
+2023-03-26T19:59:14-04:00 SPG_RNAseq_pipeline: 8. Getting Sirt1 rMATS events if any..
+created virtual environment CPython3.8.10.final.0-64 in 462ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15017835.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/contourpy-1.0.7+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cycler-0.11.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fonttools-4.39.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_resources-5.12.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/kiwisolver-1.4.4+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/matplotlib-3.7.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/packaging-23.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/Pillow-9.4.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.0.9+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/pysam-0.20.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.8.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scipy-1.10.1+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/zipp-3.15.0+computecanada-py3-none-any.whl
+Installing collected packages: pysam, zipp, six, pyparsing, Pillow, packaging, numpy, kiwisolver, fonttools, cycler, scipy, python-dateutil, importlib_resources, contourpy, matplotlib
+Successfully installed Pillow-9.4.0+computecanada contourpy-1.0.7+computecanada cycler-0.11.0+computecanada fonttools-4.39.0+computecanada importlib_resources-5.12.0+computecanada kiwisolver-1.4.4+computecanada matplotlib-3.7.0+computecanada numpy-1.24.2+computecanada packaging-23.0+computecanada pyparsing-3.0.9+computecanada pysam-0.20.0+computecanada python-dateutil-2.8.2+computecanada scipy-1.10.1+computecanada six-1.16.0+computecanada zipp-3.15.0+computecanada
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.00 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/chr10
+  - Chromosome serialization took 0.00 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/genes.gff
+  - Serialization of genes from GFF took 0.97 seconds
+Indexing of GFF took 0.97 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 1.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_67891484_67891554_+@chr10_67906163_67906287_+@chr10_67906790_67906937_+
+Setting up plot using dimensions:  [1.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: SIRT1 CTLi IncLevel: 0.04
+Skipping read with CIGAR 23M1I23M2278N103M
+Skipping read with CIGAR 23M1I23M2278N103M
+Skipping read with CIGAR 27M1I122M
+Skipping read with CIGAR 54M1D96M
+Skipping read with CIGAR 54M1D96M
+Skipping read with CIGAR 54M1D96M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 90M1D60M
+Skipping read with CIGAR 74M1I75M
+Skipping read with CIGAR 85M1I64M
+Skipping read with CIGAR 73M2I75M
+Skipping read with CIGAR 76M2I72M
+Reading sample label: SIRT1 hnRNPLi IncLevel: 0.45
+Skipping read with CIGAR 41M1I23M2278N85M
+Skipping read with CIGAR 32M2D28M2278N90M
+Skipping read with CIGAR 32M2D28M2278N90M
+Skipping read with CIGAR 32M2D28M2278N90M
+Skipping read with CIGAR 19M1D29M2278N102M
+Skipping read with CIGAR 19M1D29M2278N102M
+Skipping read with CIGAR 72M1I77M
+Skipping read with CIGAR 72M1I77M
+Skipping read with CIGAR 19S42M2I87M
+Skipping read with CIGAR 94M1D56M
+Skipping read with CIGAR 94M3D56M
+Skipping read with CIGAR 53M1D97M
+Skipping read with CIGAR 53M1D97M
+Skipping read with CIGAR 15M1D135M
+Skipping read with CIGAR 15M1D135M
+Skipping read with CIGAR 15M1D135M
+Skipping read with CIGAR 89M2D61M
+Skipping read with CIGAR 89M1D61M
+Skipping read with CIGAR 66M3I81M
+Skipping read with CIGAR 50M1I99M
+Skipping read with CIGAR 40M2I108M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 41M1I23M2278N85M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 48M1I101M
+Skipping read with CIGAR 48M1I101M
+Skipping read with CIGAR 42M2I106M
+Skipping read with CIGAR 73M3I74M
+Skipping read with CIGAR 65M1I84M
+Skipping read with CIGAR 36M1I113M
+Skipping read with CIGAR 60M1I89M
+Skipping read with CIGAR 60M1I89M
+Skipping read with CIGAR 22S64M1D64M
+Skipping read with CIGAR 75M2I73M
+Skipping read with CIGAR 84M1I65M
+Skipping read with CIGAR 84M1I65M
+Skipping read with CIGAR 67M1I82M
+Skipping read with CIGAR 105M3I42M
+Skipping read with CIGAR 24M1I125M
+Skipping read with CIGAR 23M1I126M
+Skipping read with CIGAR 95M1I54M
+Skipping read with CIGAR 103M1I46M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 113M2I35M
+Skipping read with CIGAR 124M2I24M
+Skipping read with CIGAR 38M2I110M
+Skipping read with CIGAR 38M2I110M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 6S48M1D96M
+Skipping read with CIGAR 81M5D69M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 33M1I116M
+Skipping read with CIGAR 33M1I116M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_67891484_67891554_+@chr10_67906163_67906287_+@chr10_67906790_67906937_+.pdf
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.00 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/chr10
+  - Chromosome serialization took 0.00 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/genes.gff
+  - Serialization of genes from GFF took 4.79 seconds
+Indexing of GFF took 4.79 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 1.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_67891484_67891554_+@chr10_67906166_67906287_+@chr10_67906790_67906937_+
+Setting up plot using dimensions:  [1.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: SIRT1 CTLi IncLevel: 0.03
+Skipping read with CIGAR 23M1I23M2278N103M
+Skipping read with CIGAR 23M1I23M2278N103M
+Skipping read with CIGAR 27M1I122M
+Skipping read with CIGAR 54M1D96M
+Skipping read with CIGAR 54M1D96M
+Skipping read with CIGAR 54M1D96M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 90M1D60M
+Skipping read with CIGAR 74M1I75M
+Skipping read with CIGAR 85M1I64M
+Skipping read with CIGAR 73M2I75M
+Skipping read with CIGAR 76M2I72M
+Reading sample label: SIRT1 hnRNPLi IncLevel: 0.32
+Skipping read with CIGAR 41M1I23M2278N85M
+Skipping read with CIGAR 32M2D28M2278N90M
+Skipping read with CIGAR 32M2D28M2278N90M
+Skipping read with CIGAR 32M2D28M2278N90M
+Skipping read with CIGAR 19M1D29M2278N102M
+Skipping read with CIGAR 19M1D29M2278N102M
+Skipping read with CIGAR 72M1I77M
+Skipping read with CIGAR 72M1I77M
+Skipping read with CIGAR 19S42M2I87M
+Skipping read with CIGAR 94M1D56M
+Skipping read with CIGAR 94M3D56M
+Skipping read with CIGAR 53M1D97M
+Skipping read with CIGAR 53M1D97M
+Skipping read with CIGAR 15M1D135M
+Skipping read with CIGAR 15M1D135M
+Skipping read with CIGAR 15M1D135M
+Skipping read with CIGAR 89M2D61M
+Skipping read with CIGAR 89M1D61M
+Skipping read with CIGAR 66M3I81M
+Skipping read with CIGAR 50M1I99M
+Skipping read with CIGAR 40M2I108M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 41M1I23M2278N85M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 48M1I101M
+Skipping read with CIGAR 48M1I101M
+Skipping read with CIGAR 42M2I106M
+Skipping read with CIGAR 73M3I74M
+Skipping read with CIGAR 65M1I84M
+Skipping read with CIGAR 36M1I113M
+Skipping read with CIGAR 60M1I89M
+Skipping read with CIGAR 60M1I89M
+Skipping read with CIGAR 22S64M1D64M
+Skipping read with CIGAR 75M2I73M
+Skipping read with CIGAR 84M1I65M
+Skipping read with CIGAR 84M1I65M
+Skipping read with CIGAR 67M1I82M
+Skipping read with CIGAR 105M3I42M
+Skipping read with CIGAR 24M1I125M
+Skipping read with CIGAR 23M1I126M
+Skipping read with CIGAR 95M1I54M
+Skipping read with CIGAR 103M1I46M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 113M2I35M
+Skipping read with CIGAR 124M2I24M
+Skipping read with CIGAR 38M2I110M
+Skipping read with CIGAR 38M2I110M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 6S48M1D96M
+Skipping read with CIGAR 81M5D69M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 33M1I116M
+Skipping read with CIGAR 33M1I116M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_67891484_67891554_+@chr10_67906166_67906287_+@chr10_67906790_67906937_+.pdf
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/data/alignedBAM/CTLi1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/data/alignedBAM/CTLi1_2pass_Aligned.sortedByCoord.out.bam.bai'
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/data/alignedBAM/hnRNPLi1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/data/alignedBAM/hnRNPLi1_2pass_Aligned.sortedByCoord.out.bam.bai'
+/localscratch/subrampg.15017835.0/env/bin/python /home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/sashimi_plot.py --plot-event "chr10_67891484_67891554_+@chr10_67906163_67906287_+@chr10_67906790_67906937_+" /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/sashimi_plot_settings.txt --output-dir /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot
+/localscratch/subrampg.15017835.0/env/bin/python /home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/sashimi_plot.py --plot-event "chr10_67891484_67891554_+@chr10_67906166_67906287_+@chr10_67906790_67906937_+" /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/sashimi_plot_settings.txt --output-dir /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.00 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/chr10
+  - Chromosome serialization took 0.02 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/genes.gff
+  - Serialization of genes from GFF took 1.32 seconds
+Indexing of GFF took 1.32 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 3.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_67884650_67918001_+
+Setting up plot using dimensions:  [3.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: CTLi
+Skipping read with CIGAR 50M1I30M2278N69M
+Skipping read with CIGAR 23M1I23M2278N103M
+Skipping read with CIGAR 23M1I23M2278N103M
+Skipping read with CIGAR 27M1I122M
+Skipping read with CIGAR 54M1D96M
+Skipping read with CIGAR 54M1D96M
+Skipping read with CIGAR 54M1D96M
+Skipping read with CIGAR 37M7D113M
+Skipping read with CIGAR 106M1D44M
+Skipping read with CIGAR 1S105M1D44M
+Skipping read with CIGAR 130M1I19M
+Skipping read with CIGAR 119M1I30M
+Skipping read with CIGAR 115M3I32M
+Skipping read with CIGAR 110M1I39M
+Skipping read with CIGAR 96M1D54M
+Skipping read with CIGAR 94M1I55M
+Skipping read with CIGAR 92M1I57M
+Skipping read with CIGAR 93M1I56M
+Skipping read with CIGAR 93M1I54M2S
+Skipping read with CIGAR 93M1I54M2S
+Skipping read with CIGAR 89M1I53M7S
+Skipping read with CIGAR 80M1I54M15S
+Skipping read with CIGAR 62M1I50M4D37M
+Skipping read with CIGAR 62M1I50M4D37M
+Skipping read with CIGAR 62M1I50M4D37M
+Skipping read with CIGAR 62M1I50M4D37M
+Skipping read with CIGAR 62M1I54M33S
+Skipping read with CIGAR 55M1I50M4D44M
+Skipping read with CIGAR 55M1I50M4D44M
+Skipping read with CIGAR 55M1I50M4D44M
+Skipping read with CIGAR 55M1I50M4D44M
+Skipping read with CIGAR 55M1I50M4D44M
+Skipping read with CIGAR 55M1I50M4D44M
+Skipping read with CIGAR 28M1I62M4D59M
+Skipping read with CIGAR 28M1I62M4D59M
+Skipping read with CIGAR 39M1I51M4D59M
+Skipping read with CIGAR 39M1I51M4D59M
+Skipping read with CIGAR 39M2I50M4D59M
+Skipping read with CIGAR 39M2I50M4D59M
+Skipping read with CIGAR 39M2I50M4D59M
+Skipping read with CIGAR 39M2I50M4D59M
+Skipping read with CIGAR 27M3I50M4D69M1S
+Skipping read with CIGAR 27M3I50M4D69M1S
+Skipping read with CIGAR 29S62M4D59M
+Skipping read with CIGAR 7S62M4D37M2D44M
+Skipping read with CIGAR 7S62M4D37M2D44M
+Skipping read with CIGAR 61M4D89M
+Skipping read with CIGAR 61M4D89M
+Skipping read with CIGAR 53M4D97M
+Skipping read with CIGAR 51M4D99M
+Skipping read with CIGAR 50M4D54M1I45M
+Skipping read with CIGAR 50M4D54M1I45M
+Skipping read with CIGAR 42M4D108M
+Skipping read with CIGAR 38M4D112M
+Skipping read with CIGAR 36M4D114M
+Skipping read with CIGAR 33M4D117M
+Skipping read with CIGAR 33M4D117M
+Skipping read with CIGAR 31M4D119M
+Skipping read with CIGAR 29M4D18M2D103M
+Skipping read with CIGAR 29M4D18M2D103M
+Skipping read with CIGAR 26M4D124M
+Skipping read with CIGAR 19M4D131M
+Skipping read with CIGAR 19M4D131M
+Skipping read with CIGAR 19M4D131M
+Skipping read with CIGAR 16M4D134M
+Skipping read with CIGAR 16M4D134M
+Skipping read with CIGAR 16M4D134M
+Skipping read with CIGAR 86M1I63M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 83M1I23M2278N43M
+Skipping read with CIGAR 90M1D60M
+Skipping read with CIGAR 74M1I75M
+Skipping read with CIGAR 85M1I64M
+Skipping read with CIGAR 73M2I75M
+Skipping read with CIGAR 76M2I72M
+Skipping read with CIGAR 116M2I32M
+Skipping read with CIGAR 116M2I32M
+Skipping read with CIGAR 95M1I54M
+Skipping read with CIGAR 68M2I50M4D30M
+Skipping read with CIGAR 68M2I50M4D30M
+Skipping read with CIGAR 110M4D40M
+Skipping read with CIGAR 57M2I54M37S
+Skipping read with CIGAR 89M4D61M
+Skipping read with CIGAR 89M4D61M
+Skipping read with CIGAR 2S52M4D43M1D53M
+Skipping read with CIGAR 2S52M4D43M1D53M
+Skipping read with CIGAR 37M4D113M
+Skipping read with CIGAR 37M4D113M
+Skipping read with CIGAR 37M4D113M
+Skipping read with CIGAR 33M4D117M
+Skipping read with CIGAR 33M4D117M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 26M4D124M
+Skipping read with CIGAR 24M4D126M
+Skipping read with CIGAR 22M4D128M
+Skipping read with CIGAR 17M4D133M
+Skipping read with CIGAR 10M4D54M1I85M
+Skipping read with CIGAR 10M4D54M1I85M
+Skipping read with CIGAR 5S59M1I85M
+Skipping read with CIGAR 4S78M1I67M
+Skipping read with CIGAR 4S78M1I67M
+Skipping read with CIGAR 4S46M1D100M
+Skipping read with CIGAR 4S78M1I67M
+Skipping read with CIGAR 1S38M1I110M
+Reading sample label: hnRNPLi
+Skipping read with CIGAR 71M1D79M
+Skipping read with CIGAR 71M1D79M
+Skipping read with CIGAR 101M3D49M
+Skipping read with CIGAR 101M3D49M
+Skipping read with CIGAR 127M1I22M
+Skipping read with CIGAR 126M2I22M
+Skipping read with CIGAR 48M1D26M1I75M
+Skipping read with CIGAR 48M1D26M1I75M
+Skipping read with CIGAR 48M1D26M1I75M
+Skipping read with CIGAR 48M1D26M1I75M
+Skipping read with CIGAR 33M1D117M
+Skipping read with CIGAR 27M1D123M
+Skipping read with CIGAR 111M1D39M
+Skipping read with CIGAR 104M1I45M
+Skipping read with CIGAR 57M1D93M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 126M1I23M
+Skipping read with CIGAR 113M1I36M
+Skipping read with CIGAR 113M1I36M
+Skipping read with CIGAR 89M1I60M
+Skipping read with CIGAR 135M1I14M
+Skipping read with CIGAR 78M1I71M
+Skipping read with CIGAR 78M1I71M
+Skipping read with CIGAR 77M1I72M
+Skipping read with CIGAR 77M1I72M
+Skipping read with CIGAR 96M1I23M2278N30M
+Skipping read with CIGAR 88M2D28M2278N34M
+Skipping read with CIGAR 38M1I80M2278N31M
+Skipping read with CIGAR 88M2D28M2278N34M
+Skipping read with CIGAR 88M2D28M2278N34M
+Skipping read with CIGAR 18M1I78M2278N53M
+Skipping read with CIGAR 50M1D44M2278N56M
+Skipping read with CIGAR 41M1I23M2278N85M
+Skipping read with CIGAR 32M2D28M2278N90M
+Skipping read with CIGAR 32M2D28M2278N90M
+Skipping read with CIGAR 32M2D28M2278N90M
+Skipping read with CIGAR 19M1D29M2278N102M
+Skipping read with CIGAR 19M1D29M2278N102M
+Skipping read with CIGAR 72M1I77M
+Skipping read with CIGAR 72M1I77M
+Skipping read with CIGAR 19S42M2I87M
+Skipping read with CIGAR 94M1D56M
+Skipping read with CIGAR 94M3D56M
+Skipping read with CIGAR 53M1D97M
+Skipping read with CIGAR 53M1D97M
+Skipping read with CIGAR 15M1D135M
+Skipping read with CIGAR 15M1D135M
+Skipping read with CIGAR 15M1D135M
+Skipping read with CIGAR 89M2D61M
+Skipping read with CIGAR 89M1D61M
+Skipping read with CIGAR 66M3I81M
+Skipping read with CIGAR 50M1I99M
+Skipping read with CIGAR 40M2I108M
+Skipping read with CIGAR 65M1130N72M1I12M
+Skipping read with CIGAR 31M1130N72M1I46M
+Skipping read with CIGAR 123M2I25M
+Skipping read with CIGAR 35M1I114M
+Skipping read with CIGAR 22M1I115M3031N12M
+Skipping read with CIGAR 22M1I115M3031N12M
+Skipping read with CIGAR 22M1I115M3031N12M
+Skipping read with CIGAR 21M1I115M3031N13M
+Skipping read with CIGAR 21M1I115M3031N13M
+Skipping read with CIGAR 21M1I115M3031N13M
+Skipping read with CIGAR 21M1I115M3031N13M
+Skipping read with CIGAR 10M1I120M3031N19M
+Skipping read with CIGAR 10M1I120M3031N19M
+Skipping read with CIGAR 36M1I113M
+Skipping read with CIGAR 104M7D46M
+Skipping read with CIGAR 70M2D80M
+Skipping read with CIGAR 70M3D80M
+Skipping read with CIGAR 70M3D80M
+Skipping read with CIGAR 129M1I20M
+Skipping read with CIGAR 129M1I20M
+Skipping read with CIGAR 113M1I36M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 122M1I27M
+Skipping read with CIGAR 122M1I27M
+Skipping read with CIGAR 122M1I27M
+Skipping read with CIGAR 110M1I39M
+Skipping read with CIGAR 122M1I27M
+Skipping read with CIGAR 127M1I22M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 100M1D50M
+Skipping read with CIGAR 100M1D50M
+Skipping read with CIGAR 111M1D39M
+Skipping read with CIGAR 111M1D39M
+Skipping read with CIGAR 98M1I51M
+Skipping read with CIGAR 110M1I39M
+Skipping read with CIGAR 108M1I41M
+Skipping read with CIGAR 108M1I41M
+Skipping read with CIGAR 108M2I40M
+Skipping read with CIGAR 108M2I40M
+Skipping read with CIGAR 108M2I40M
+Skipping read with CIGAR 104M1I45M
+Skipping read with CIGAR 103M1I46M
+Skipping read with CIGAR 103M1I46M
+Skipping read with CIGAR 103M1I46M
+Skipping read with CIGAR 103M1I46M
+Skipping read with CIGAR 101M2I46M1S
+Skipping read with CIGAR 94M2I54M
+Skipping read with CIGAR 75M1I50M4D24M
+Skipping read with CIGAR 75M1I50M4D24M
+Skipping read with CIGAR 2S71M1D49M4D28M
+Skipping read with CIGAR 2S71M1D49M4D28M
+Skipping read with CIGAR 60M1I50M4D39M
+Skipping read with CIGAR 60M1I50M4D39M
+Skipping read with CIGAR 58M2I50M4D40M
+Skipping read with CIGAR 58M2I50M4D40M
+Skipping read with CIGAR 58M2I50M4D40M
+Skipping read with CIGAR 58M2I50M4D40M
+Skipping read with CIGAR 107M4D43M
+Skipping read with CIGAR 57M1I50M4D42M
+Skipping read with CIGAR 57M1I50M4D42M
+Skipping read with CIGAR 56M1I50M4D43M
+Skipping read with CIGAR 56M1I50M4D43M
+Skipping read with CIGAR 56M1I50M4D43M
+Skipping read with CIGAR 56M1I50M4D43M
+Skipping read with CIGAR 55M2I50M4D43M
+Skipping read with CIGAR 55M2I50M4D43M
+Skipping read with CIGAR 39M3I50M4D58M
+Skipping read with CIGAR 39M3I50M4D58M
+Skipping read with CIGAR 30M1I50M4D69M
+Skipping read with CIGAR 30M1I50M4D69M
+Skipping read with CIGAR 28M2I50M4D70M
+Skipping read with CIGAR 28M2I50M4D70M
+Skipping read with CIGAR 28M2I50M4D70M
+Skipping read with CIGAR 28M2I50M4D70M
+Skipping read with CIGAR 28M2I50M4D70M
+Skipping read with CIGAR 28M2I50M4D70M
+Skipping read with CIGAR 28M2I50M4D70M
+Skipping read with CIGAR 28M2I50M4D70M
+Skipping read with CIGAR 24M2I50M4D74M
+Skipping read with CIGAR 24M2I50M4D74M
+Skipping read with CIGAR 24M2I50M4D74M
+Skipping read with CIGAR 24M2I50M4D74M
+Skipping read with CIGAR 53M4D97M
+Skipping read with CIGAR 53M4D97M
+Skipping read with CIGAR 52M4D98M
+Skipping read with CIGAR 51M4D99M
+Skipping read with CIGAR 51M4D99M
+Skipping read with CIGAR 51M4D99M
+Skipping read with CIGAR 51M4D99M
+Skipping read with CIGAR 51M4D99M
+Skipping read with CIGAR 2S50M4D98M
+Skipping read with CIGAR 1S50M4D99M
+Skipping read with CIGAR 2S50M4D98M
+Skipping read with CIGAR 50M4D99M1S
+Skipping read with CIGAR 50M4D99M1S
+Skipping read with CIGAR 44M4D106M
+Skipping read with CIGAR 43M4D107M
+Skipping read with CIGAR 41M4D109M
+Skipping read with CIGAR 41M4D109M
+Skipping read with CIGAR 40M4D110M
+Skipping read with CIGAR 40M4D110M
+Skipping read with CIGAR 40M4D110M
+Skipping read with CIGAR 33M4D117M
+Skipping read with CIGAR 33M4D117M
+Skipping read with CIGAR 33M4D117M
+Skipping read with CIGAR 33M4D117M
+Skipping read with CIGAR 31M4D119M
+Skipping read with CIGAR 31M4D119M
+Skipping read with CIGAR 31M4D119M
+Skipping read with CIGAR 31M4D119M
+Skipping read with CIGAR 31M4D119M
+Skipping read with CIGAR 31M4D119M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 25M4D51M1I73M
+Skipping read with CIGAR 25M4D51M1I73M
+Skipping read with CIGAR 26M4D124M
+Skipping read with CIGAR 26M4D124M
+Skipping read with CIGAR 26M4D124M
+Skipping read with CIGAR 26M4D124M
+Skipping read with CIGAR 26M4D124M
+Skipping read with CIGAR 26M4D124M
+Skipping read with CIGAR 21M4D129M
+Skipping read with CIGAR 21M4D129M
+Skipping read with CIGAR 21M4D129M
+Skipping read with CIGAR 19M4D131M
+Skipping read with CIGAR 17M4D132M1S
+Skipping read with CIGAR 17M4D132M1S
+Skipping read with CIGAR 11M4D139M
+Skipping read with CIGAR 11M4D139M
+Skipping read with CIGAR 11M4D139M
+Skipping read with CIGAR 11M4D139M
+Skipping read with CIGAR 10M4D140M
+Skipping read with CIGAR 10M4D140M
+Skipping read with CIGAR 2S52M1I95M
+Skipping read with CIGAR 2S52M1I95M
+Skipping read with CIGAR 2S52M1I95M
+Skipping read with CIGAR 96M1I53M
+Skipping read with CIGAR 96M1I53M
+Skipping read with CIGAR 96M1I53M
+Skipping read with CIGAR 96M1I53M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 10M165096N54M1I85M
+Skipping read with CIGAR 97M2D53M
+Skipping read with CIGAR 130M3D20M
+Skipping read with CIGAR 126M3D24M
+Skipping read with CIGAR 126M3D24M
+Skipping read with CIGAR 85M3D65M
+Skipping read with CIGAR 85M3D65M
+Skipping read with CIGAR 107M3D43M
+Skipping read with CIGAR 93M3D57M
+Skipping read with CIGAR 60M1I89M
+Skipping read with CIGAR 41M1I108M
+Skipping read with CIGAR 55M1348N81M1I13M
+Skipping read with CIGAR 51M1348N14M1I84M
+Skipping read with CIGAR 75M2D73M2S
+Skipping read with CIGAR 75M2D75M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 109M1I40M
+Skipping read with CIGAR 135M1I14M
+Skipping read with CIGAR 58M1I80M2278N11M
+Skipping read with CIGAR 24M1I80M2278N45M
+Skipping read with CIGAR 59M1I23M2278N67M
+Skipping read with CIGAR 41M1I23M2278N85M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 48M1I101M
+Skipping read with CIGAR 48M1I101M
+Skipping read with CIGAR 42M2I106M
+Skipping read with CIGAR 73M3I74M
+Skipping read with CIGAR 65M1I84M
+Skipping read with CIGAR 36M1I113M
+Skipping read with CIGAR 60M1I89M
+Skipping read with CIGAR 60M1I89M
+Skipping read with CIGAR 22S64M1D64M
+Skipping read with CIGAR 75M2I73M
+Skipping read with CIGAR 84M1I65M
+Skipping read with CIGAR 84M1I65M
+Skipping read with CIGAR 67M1I82M
+Skipping read with CIGAR 105M3I42M
+Skipping read with CIGAR 24M1I125M
+Skipping read with CIGAR 23M1I126M
+Skipping read with CIGAR 95M1I54M
+Skipping read with CIGAR 103M1I46M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 114M1I35M
+Skipping read with CIGAR 125M1I24M
+Skipping read with CIGAR 113M2I35M
+Skipping read with CIGAR 124M2I24M
+Skipping read with CIGAR 38M2I110M
+Skipping read with CIGAR 38M2I110M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 30M1I119M
+Skipping read with CIGAR 6S48M1D96M
+Skipping read with CIGAR 81M5D69M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 33M1I116M
+Skipping read with CIGAR 33M1I116M
+Skipping read with CIGAR 61M1D10M1130N79M
+Skipping read with CIGAR 39M1130N66M1D45M
+Skipping read with CIGAR 17M1130N72M1I60M
+Skipping read with CIGAR 17M1130N72M1I60M
+Skipping read with CIGAR 42M1I60M
+Skipping read with CIGAR 42M1I60M
+Skipping read with CIGAR 28M1I115M3031N6M
+Skipping read with CIGAR 28M1I115M3031N6M
+Skipping read with CIGAR 28M1I115M3031N6M
+Skipping read with CIGAR 102M1I47M
+Skipping read with CIGAR 109M1I40M
+Skipping read with CIGAR 25M1I124M
+Skipping read with CIGAR 32M2D118M
+Skipping read with CIGAR 32M2D118M
+Skipping read with CIGAR 80M1D70M
+Skipping read with CIGAR 80M1D70M
+Skipping read with CIGAR 56M3233N19M1I74M
+Skipping read with CIGAR 8M3233N19M1I122M
+Skipping read with CIGAR 36M1I113M
+Skipping read with CIGAR 36M1I113M
+Skipping read with CIGAR 47M1I102M
+Skipping read with CIGAR 36M7D114M
+Skipping read with CIGAR 24M1I125M
+Skipping read with CIGAR 71M2D79M
+Skipping read with CIGAR 71M2D79M
+Skipping read with CIGAR 57M1D93M
+Skipping read with CIGAR 57M1D93M
+Skipping read with CIGAR 105M1I44M
+Skipping read with CIGAR 60M2D90M
+Skipping read with CIGAR 130M1I19M
+Skipping read with CIGAR 126M1I23M
+Skipping read with CIGAR 121M3I26M
+Skipping read with CIGAR 120M2I28M
+Skipping read with CIGAR 108M2I40M
+Skipping read with CIGAR 45M1D68M1I36M
+Skipping read with CIGAR 45M1D68M1I36M
+Skipping read with CIGAR 116M2I30M2S
+Skipping read with CIGAR 115M1I34M
+Skipping read with CIGAR 103M1I46M
+Skipping read with CIGAR 113M1I36M
+Skipping read with CIGAR 115M1I34M
+Skipping read with CIGAR 115M1I34M
+Skipping read with CIGAR 111M1I38M
+Skipping read with CIGAR 98M1I51M
+Skipping read with CIGAR 99M1I50M
+Skipping read with CIGAR 110M1I39M
+Skipping read with CIGAR 108M2I40M
+Skipping read with CIGAR 107M1I42M
+Skipping read with CIGAR 105M1I44M
+Skipping read with CIGAR 93M1I56M
+Skipping read with CIGAR 105M1I44M
+Skipping read with CIGAR 93M1I56M
+Skipping read with CIGAR 94M1I55M
+Skipping read with CIGAR 101M2I47M
+Skipping read with CIGAR 101M2I47M
+Skipping read with CIGAR 1S100M2I47M
+Skipping read with CIGAR 100M3I47M
+Skipping read with CIGAR 97M1I52M
+Skipping read with CIGAR 80M1I66M3S
+Skipping read with CIGAR 81M1I65M3S
+Skipping read with CIGAR 91M1I54M4S
+Skipping read with CIGAR 78M3I66M3S
+Skipping read with CIGAR 81M3I63M3S
+Skipping read with CIGAR 89M2I54M5S
+Skipping read with CIGAR 72M1I50M4D27M
+Skipping read with CIGAR 72M1I50M4D27M
+Skipping read with CIGAR 72M1I50M4D27M
+Skipping read with CIGAR 72M1I50M4D27M
+Skipping read with CIGAR 59M1I50M4D40M
+Skipping read with CIGAR 59M1I50M4D40M
+Skipping read with CIGAR 39M1I50M4D60M
+Skipping read with CIGAR 39M1I50M4D60M
+Skipping read with CIGAR 30M2I50M4D68M
+Skipping read with CIGAR 30M2I50M4D68M
+Skipping read with CIGAR 30M1I50M4D69M
+Skipping read with CIGAR 30M1I50M4D69M
+Skipping read with CIGAR 30M1I50M4D69M
+Skipping read with CIGAR 30M1I50M4D69M
+Skipping read with CIGAR 22S62M4D66M
+Skipping read with CIGAR 6S62M4D82M
+Skipping read with CIGAR 6S62M4D82M
+Skipping read with CIGAR 59M4D91M
+Skipping read with CIGAR 53M4D97M
+Skipping read with CIGAR 52M4D98M
+Skipping read with CIGAR 52M4D98M
+Skipping read with CIGAR 52M4D98M
+Skipping read with CIGAR 51M4D99M
+Skipping read with CIGAR 38M4D112M
+Skipping read with CIGAR 36M4D114M
+Skipping read with CIGAR 36M4D114M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D123M
+Skipping read with CIGAR 27M4D46M1D77M
+Skipping read with CIGAR 27M4D46M1D77M
+Skipping read with CIGAR 26M4D50M1I73M
+Skipping read with CIGAR 26M4D50M1I73M
+Skipping read with CIGAR 26M4D124M
+Skipping read with CIGAR 25M4D125M
+Skipping read with CIGAR 25M4D125M
+Skipping read with CIGAR 21M4D129M
+Skipping read with CIGAR 20M4D130M
+Skipping read with CIGAR 20M4D130M
+Skipping read with CIGAR 17M4D133M
+Skipping read with CIGAR 16M4D134M
+Skipping read with CIGAR 14M4D136M
+Skipping read with CIGAR 14M4D136M
+Skipping read with CIGAR 14M4D136M
+Skipping read with CIGAR 11M4D139M
+Skipping read with CIGAR 11M4D139M
+Skipping read with CIGAR 10M4D54M1I85M
+Skipping read with CIGAR 10M4D54M1I85M
+Skipping read with CIGAR 10M4D54M1I85M
+Skipping read with CIGAR 10M4D54M1I85M
+Skipping read with CIGAR 10M4D54M1I85M
+Skipping read with CIGAR 10M4D54M1I85M
+Skipping read with CIGAR 5S59M1I85M
+Skipping read with CIGAR 5S59M1I85M
+Skipping read with CIGAR 5S59M1I85M
+Skipping read with CIGAR 50M1I99M
+Skipping read with CIGAR 117M1D33M
+Skipping read with CIGAR 131M2D19M
+Skipping read with CIGAR 65M1D85M
+Skipping read with CIGAR 25M1I124M
+Skipping read with CIGAR 11M1I138M
+Skipping read with CIGAR 77M1D73M
+Skipping read with CIGAR 17M8D133M
+Skipping read with CIGAR 91M3D59M
+Skipping read with CIGAR 89M1I60M
+Skipping read with CIGAR 96M1I53M
+Skipping read with CIGAR 67M1I82M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_67884650_67918001_+.pdf
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/data/alignedBAM/CTLi1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/data/alignedBAM/CTLi1_2pass_Aligned.sortedByCoord.out.bam.bai'
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/data/alignedBAM/hnRNPLi1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/data/alignedBAM/hnRNPLi1_2pass_Aligned.sortedByCoord.out.bam.bai'
+RMATS_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/kcytes/rna_seq/hnrnpl/results/rMATS/

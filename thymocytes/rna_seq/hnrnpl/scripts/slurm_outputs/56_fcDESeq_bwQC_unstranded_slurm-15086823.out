@@ -1,0 +1,273 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) blis/0.8.1     2) flexiblas/3.0.4     3) openmpi/4.0.3
+
+2023-03-29T02:44:33-04:00 SPG_RNAseq_pipeline: 5. Starting featureCounts and DESeq2..
+   SampleID Read_num Original_file_name Condition Replicate
+1:      WT1        1 SRR364330.fastq.gz        WT         1
+2:      WT2        1 SRR364333.fastq.gz        WT         2
+3:      KO1        1 SRR364331.fastq.gz        KO         1
+4:      KO2        1 SRR364332.fastq.gz        KO         2
+Starting featureCounts
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+       Rsubread 2.12.2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                                                                            ||
+||                           WT1_2pass_Aligned.sortedByCoord.out.bam          ||
+||                           WT2_2pass_Aligned.sortedByCoord.out.bam          ||
+||                           KO1_2pass_Aligned.sortedByCoord.out.bam          ||
+||                           KO2_2pass_Aligned.sortedByCoord.out.bam          ||
+||                                                                            ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : gencode.vM23.primary_assembly.annotation.gtf ... ||
+||      Dir for temp files : .                                                ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.vM23.primary_assembly.annotation.gtf ...      ||
+||    Features : 841916                                                       ||
+||    Meta-features : 55421                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file WT1_2pass_Aligned.sortedByCoord.out.bam...                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 148076473                                            ||
+||    Successfully assigned alignments : 71740630 (48.4%)                     ||
+||    Running time : 0.41 minutes                                             ||
+||                                                                            ||
+|| Process BAM file WT2_2pass_Aligned.sortedByCoord.out.bam...                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 141098534                                            ||
+||    Successfully assigned alignments : 72346272 (51.3%)                     ||
+||    Running time : 0.37 minutes                                             ||
+||                                                                            ||
+|| Process BAM file KO1_2pass_Aligned.sortedByCoord.out.bam...                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 101321044                                            ||
+||    Successfully assigned alignments : 42519719 (42.0%)                     ||
+||    Running time : 0.27 minutes                                             ||
+||                                                                            ||
+|| Process BAM file KO2_2pass_Aligned.sortedByCoord.out.bam...                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 94284840                                             ||
+||    Successfully assigned alignments : 41162402 (43.7%)                     ||
+||    Running time : 0.25 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+\\============================================================================//
+
+    Condition
+WT1        WT
+WT2        WT
+KO1        KO
+KO2        KO
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:data.table’:
+
+    first, second
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:data.table’:
+
+    shift
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+Warning message:
+In .local(x, row.names, optional, ...) : Arguments in '...' ignored
+           leg     N
+1: 1_unchanged 19996
+2:    0_unexpr 35177
+3:     2_upreg   144
+4:   3_downreg   104
+Loading required package: egg
+Loading required package: gridExtra
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:Biobase’:
+
+    combine
+
+The following object is masked from ‘package:BiocGenerics’:
+
+    combine
+
+Loading required package: ggrastr
+Warning messages:
+1: Transformation introduced infinite values in continuous x-axis 
+2: Removed 13734 rows containing missing values (`geom_point()`). 
+null device 
+          1 
+null device 
+          1 
+2023-03-29T02:47:08-04:00 SPG_RNAseq_pipeline: 5. Done with featureCounts and DESeq2.
+2023-03-29T02:47:10-04:00 SPG_RNAseq_pipeline: 6. Merging 2 WT bigwig files..
+2023-03-29T02:49:37-04:00 SPG_RNAseq_pipeline: 6. Merging 2 KO bigwig files..
+2023-03-29T02:51:54-04:00 SPG_RNAseq_pipeline: 6. Making KO-WT bigwig files with wiggletools..
+2023-03-29T02:55:17-04:00 SPG_RNAseq_pipeline: 7. Compiling QC metrics..
+created virtual environment CPython3.8.10.final.0-64 in 6637ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15086823.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/certifi-2022.9.24+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/charset_normalizer-2.1.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/click-8.1.3+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/coloredlogs-15.0.1+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/colormath-3.0.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/commonmark-0.9.1+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/contourpy-1.0.5+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cycler-0.11.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fonttools-4.38.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/future-0.18.2+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/humanfriendly-10.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/idna-3.4+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_metadata-5.2.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Jinja2-3.1.2+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/kiwisolver-1.4.4+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/lzstring-1.0.4+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Markdown-3.4.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/MarkupSafe-2.1.1+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/matplotlib-3.6.1+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/multiqc-1.13+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/networkx-2.8.8+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.23.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/packaging-21.3+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/Pillow-9.2.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Pygments-2.13.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.0.9+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.8.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/PyYAML-6.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/requests-2.28.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/rich-12.6.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/rich_click-1.5.2+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/simplejson-3.17.6+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/spectra-0.0.11+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.4.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/urllib3-1.26.13+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/zipp-3.11.0+computecanada-py3-none-any.whl
+Installing collected packages: commonmark, zipp, urllib3, typing_extensions, six, simplejson, PyYAML, pyparsing, Pygments, Pillow, numpy, networkx, MarkupSafe, kiwisolver, idna, humanfriendly, future, fonttools, cycler, click, charset_normalizer, certifi, rich, requests, python-dateutil, packaging, lzstring, Jinja2, importlib_metadata, contourpy, colormath, coloredlogs, spectra, rich_click, matplotlib, Markdown, multiqc
+Successfully installed Jinja2-3.1.2+computecanada Markdown-3.4.1+computecanada MarkupSafe-2.1.1+computecanada Pillow-9.2.0+computecanada PyYAML-6.0+computecanada Pygments-2.13.0+computecanada certifi-2022.9.24+computecanada charset_normalizer-2.1.1+computecanada click-8.1.3+computecanada coloredlogs-15.0.1+computecanada colormath-3.0.0+computecanada commonmark-0.9.1+computecanada contourpy-1.0.5+computecanada cycler-0.11.0+computecanada fonttools-4.38.0+computecanada future-0.18.2+computecanada humanfriendly-10.0+computecanada idna-3.4+computecanada importlib_metadata-5.2.0+computecanada kiwisolver-1.4.4+computecanada lzstring-1.0.4+computecanada matplotlib-3.6.1+computecanada multiqc-1.13+computecanada networkx-2.8.8+computecanada numpy-1.23.0+computecanada packaging-21.3+computecanada pyparsing-3.0.9+computecanada python-dateutil-2.8.2+computecanada requests-2.28.1+computecanada rich-12.6.0+computecanada rich_click-1.5.2+computecanada simplejson-3.17.6+computecanada six-1.16.0+computecanada spectra-0.0.11+computecanada typing_extensions-4.4.0+computecanada urllib3-1.26.13+computecanada zipp-3.11.0+computecanada
+
+  /// MultiQC 🔍 | v1.13+computecanada
+
+|           multiqc | Search path : /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 75/75  
+|              star | Found 8 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : ../../../../../../../../lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/qc_stats/multiQC_report.html
+|           multiqc | Data        : ../../../../../../../../lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/qc_stats/multiQC_report_data
+|           multiqc | MultiQC complete
+FC_DSQ_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/fcounts_deseq/
+BW_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/bw_files/
+QC_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/qc_stats/
+Submitted batch job 15087010

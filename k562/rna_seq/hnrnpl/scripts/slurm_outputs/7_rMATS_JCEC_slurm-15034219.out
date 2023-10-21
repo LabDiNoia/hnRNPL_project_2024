@@ -1,0 +1,263 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) blis/0.8.1     2) flexiblas/3.0.4     3) openmpi/4.0.3
+
+created virtual environment CPython3.8.10.final.0-64 in 692ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15034219.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Cython-0.29.33+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: cython
+Successfully installed cython-0.29.33+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: numpy
+Successfully installed numpy-1.24.2+computecanada
+2023-03-27T08:00:09-04:00 SPG_RNAseq_pipeline: 7. Starting rMATS..
+2023-03-27T08:00:09-04:00 SPG_RNAseq_pipeline: 8. Getting Sirt1 rMATS events if any..
+created virtual environment CPython3.8.10.final.0-64 in 323ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15034219.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/contourpy-1.0.7+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cycler-0.11.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fonttools-4.39.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_resources-5.12.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/kiwisolver-1.4.4+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/matplotlib-3.7.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/packaging-23.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/Pillow-9.4.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.0.9+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/pysam-0.20.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.8.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scipy-1.10.1+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/zipp-3.15.0+computecanada-py3-none-any.whl
+Installing collected packages: pysam, zipp, six, pyparsing, Pillow, packaging, numpy, kiwisolver, fonttools, cycler, scipy, python-dateutil, importlib_resources, contourpy, matplotlib
+Successfully installed Pillow-9.4.0+computecanada contourpy-1.0.7+computecanada cycler-0.11.0+computecanada fonttools-4.39.0+computecanada importlib_resources-5.12.0+computecanada kiwisolver-1.4.4+computecanada matplotlib-3.7.0+computecanada numpy-1.24.2+computecanada packaging-23.0+computecanada pyparsing-3.0.9+computecanada pysam-0.20.0+computecanada python-dateutil-2.8.2+computecanada scipy-1.10.1+computecanada six-1.16.0+computecanada zipp-3.15.0+computecanada
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.00 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/chr10
+  - Chromosome serialization took 0.17 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/genes.gff
+  - Serialization of genes from GFF took 2.22 seconds
+Indexing of GFF took 2.22 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 1.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_67888882_67889123_+@chr10_67906163_67906287_+@chr10_67906790_67906937_+
+Setting up plot using dimensions:  [1.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: SIRT1 shCTL IncLevel: 0.50
+Skipping read with CIGAR 12M1348N10M1D78M
+Skipping read with CIGAR 68M1D29M2278N3M
+Skipping read with CIGAR 11M1D29M2278N60M
+Skipping read with CIGAR 20M1D80M
+Skipping read with CIGAR 28M1348N37M2D35M
+Skipping read with CIGAR 76M1D24M
+Skipping read with CIGAR 44M1D56M
+Skipping read with CIGAR 46M1D29M2278N25M
+Skipping read with CIGAR 12M1D29M2278N59M
+Skipping read with CIGAR 69M2I29M
+Reading sample label: SIRT1 shhnRNPL IncLevel: 0.92
+Skipping read with CIGAR 11M2D40M1348N49M
+Skipping read with CIGAR 12M1D88M
+Skipping read with CIGAR 12M1D29M17666N59M
+Skipping read with CIGAR 81M1D19M
+Skipping read with CIGAR 52M1I47M
+Skipping read with CIGAR 18M1D82M
+Skipping read with CIGAR 12M2D12M1348N75M1S
+Skipping read with CIGAR 55M1D45M
+Skipping read with CIGAR 57M1I42M
+Skipping read with CIGAR 44M1D56M
+Skipping read with CIGAR 67M1I32M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_67888882_67889123_+@chr10_67906163_67906287_+@chr10_67906790_67906937_+.pdf
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/data/alignedBAM/shCTL1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/data/alignedBAM/shCTL1_2pass_Aligned.sortedByCoord.out.bam.bai'
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/data/alignedBAM/shhnRNPL1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/data/alignedBAM/shhnRNPL1_2pass_Aligned.sortedByCoord.out.bam.bai'
+/localscratch/subrampg.15034219.0/env/bin/python /home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/sashimi_plot.py --plot-event "chr10_67888882_67889123_+@chr10_67906163_67906287_+@chr10_67906790_67906937_+" /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/sashimi_plot_settings.txt --output-dir /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.00 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/chr10
+  - Chromosome serialization took 0.01 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/genes.gff
+  - Serialization of genes from GFF took 1.59 seconds
+Indexing of GFF took 1.59 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 3.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_67884650_67918001_+
+Setting up plot using dimensions:  [3.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: shCTL
+Skipping read with CIGAR 12M1348N10M1D78M
+Skipping read with CIGAR 68M1D29M2278N3M
+Skipping read with CIGAR 11M1D29M2278N60M
+Skipping read with CIGAR 20M1D80M
+Skipping read with CIGAR 83M1D17M
+Skipping read with CIGAR 36M1D64M
+Skipping read with CIGAR 31M2D69M
+Skipping read with CIGAR 52M3D48M
+Skipping read with CIGAR 35M4D65M
+Skipping read with CIGAR 32M4D68M
+Skipping read with CIGAR 32M4D68M
+Skipping read with CIGAR 32M4D68M
+Skipping read with CIGAR 12M4D88M
+Skipping read with CIGAR 11M4D89M
+Skipping read with CIGAR 33M2I65M
+Skipping read with CIGAR 56M1D43M1S
+Skipping read with CIGAR 65M2D35M
+Skipping read with CIGAR 28M1348N37M2D35M
+Skipping read with CIGAR 76M1D24M
+Skipping read with CIGAR 44M1D56M
+Skipping read with CIGAR 46M1D29M2278N25M
+Skipping read with CIGAR 12M1D29M2278N59M
+Skipping read with CIGAR 69M2I29M
+Skipping read with CIGAR 36M1D64M
+Skipping read with CIGAR 1S33M4D66M
+Skipping read with CIGAR 32M4D68M
+Skipping read with CIGAR 31M4D54M1I14M
+Skipping read with CIGAR 31M4D54M1I14M
+Skipping read with CIGAR 31M4D69M
+Skipping read with CIGAR 31M4D69M
+Skipping read with CIGAR 27M4D73M
+Skipping read with CIGAR 27M4D71M2S
+Skipping read with CIGAR 27M4D71M2S
+Skipping read with CIGAR 20M4D80M
+Skipping read with CIGAR 47M1D53M
+Skipping read with CIGAR 67M1I32M
+Skipping read with CIGAR 72M1I27M
+Skipping read with CIGAR 26M1D74M
+Reading sample label: shhnRNPL
+Skipping read with CIGAR 11M2D40M1348N49M
+Skipping read with CIGAR 12M1D88M
+Skipping read with CIGAR 12M1D29M17666N59M
+Skipping read with CIGAR 81M1D19M
+Skipping read with CIGAR 52M1I47M
+Skipping read with CIGAR 18M1D82M
+Skipping read with CIGAR 38M1I61M
+Skipping read with CIGAR 48M3D52M
+Skipping read with CIGAR 35M3D65M
+Skipping read with CIGAR 45M7D55M
+Skipping read with CIGAR 24M1D76M
+Skipping read with CIGAR 75M2D25M
+Skipping read with CIGAR 2S36M1D62M
+Skipping read with CIGAR 31M1I54M14S
+Skipping read with CIGAR 53M4D47M
+Skipping read with CIGAR 34M4D66M
+Skipping read with CIGAR 11M4D89M
+Skipping read with CIGAR 24M2D76M
+Skipping read with CIGAR 75M1D25M
+Skipping read with CIGAR 12M2D12M1348N75M1S
+Skipping read with CIGAR 55M1D45M
+Skipping read with CIGAR 57M1I42M
+Skipping read with CIGAR 44M1D56M
+Skipping read with CIGAR 67M1I32M
+Skipping read with CIGAR 17M1D83M
+Skipping read with CIGAR 59M3233N14M1D27M
+Skipping read with CIGAR 56M3D44M
+Skipping read with CIGAR 44M3I53M
+Skipping read with CIGAR 15M4D85M
+Skipping read with CIGAR 10M4D90M
+Skipping read with CIGAR 64M1D36M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_67884650_67918001_+.pdf
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/data/alignedBAM/shCTL1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/data/alignedBAM/shCTL1_2pass_Aligned.sortedByCoord.out.bam.bai'
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/data/alignedBAM/shhnRNPL1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/data/alignedBAM/shhnRNPL1_2pass_Aligned.sortedByCoord.out.bam.bai'
+RMATS_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/k562/rna_seq/hnrnpl/results/rMATS/

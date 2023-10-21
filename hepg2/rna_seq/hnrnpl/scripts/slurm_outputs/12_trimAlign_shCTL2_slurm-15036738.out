@@ -1,0 +1,79 @@
+2023-03-27T10:50:03-04:00 SPG_RNAseq_pipeline: 1. Starting FASTQ filtering with fastp
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+No adapter detected for read2
+
+Read1 before filtering:
+total reads: 55883439
+total bases: 5588343900
+Q20 bases: 5218213224(93.3767%)
+Q30 bases: 4656261909(83.321%)
+
+Read2 before filtering:
+total reads: 55883439
+total bases: 5588343900
+Q20 bases: 5033515086(90.0717%)
+Q30 bases: 4489444492(80.3359%)
+
+Read1 after filtering:
+total reads: 50387410
+total bases: 5006068104
+Q20 bases: 4814367868(96.1706%)
+Q30 bases: 4353222209(86.9589%)
+
+Read2 after filtering:
+total reads: 50387410
+total bases: 5006471052
+Q20 bases: 4801311043(95.9021%)
+Q30 bases: 4332002687(86.5281%)
+
+Filtering result:
+reads passed filter: 100774820
+reads failed due to low quality: 10883378
+reads failed due to too many N: 107874
+reads failed due to too short: 806
+reads with adapter trimmed: 7334265
+bases trimmed due to adapters: 69683261
+
+Duplication rate: 16.8769%
+
+Insert size peak (evaluated by paired-end reads): 127
+
+JSON report: /dev/null
+HTML report: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/filteredFastq//shCTL2.html
+
+fastp --in1 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/raw_fastq/SRR4422620_1.fastq.gz --in2 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/raw_fastq/SRR4422620_2.fastq.gz --out1 /localscratch/subrampg.15036738.0/6455/shCTL2//shCTL2_R1.filteredFastq.gz --out2 /localscratch/subrampg.15036738.0/6455/shCTL2//shCTL2_R2.filteredFastq.gz --detect_adapter_for_pe --thread 8 --html /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/filteredFastq//shCTL2.html --json /dev/null 
+fastp v0.23.1, time used: 280 seconds
+2023-03-27T10:54:56-04:00 SPG_RNAseq_pipeline: 1. Done FASTQ filtering.
+2023-03-27T10:54:56-04:00 SPG_RNAseq_pipeline: 2. Starting aligning with STAR
+	STAR --runThreadN 8 --genomeDir /lustre07/scratch/subrampg/binf_analyses_data//common/star_indexes/hg38/sjdbOH_99/ --readFilesIn /localscratch/subrampg.15036738.0/6455/shCTL2//shCTL2_R1.filteredFastq.gz /localscratch/subrampg.15036738.0/6455/shCTL2//shCTL2_R2.filteredFastq.gz --readFilesCommand gunzip -c --outSAMtype BAM Unsorted --outFileNamePrefix /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM//shCTL2_
+	STAR version: 2.7.9a   compiled: 2021-07-08T15:06:22+00:00 build-node.computecanada.ca:/tmp/ebuser/avx2/STAR/2.7.9a/GCCcore-9.3.0/STAR-2.7.9a/source
+Mar 27 10:54:56 ..... started STAR run
+Mar 27 10:54:57 ..... loading genome
+Mar 27 10:55:48 ..... started mapping
+Mar 27 11:05:13 ..... finished mapping
+Mar 27 11:05:16 ..... finished successfully
+2023-03-27T11:05:17-04:00 SPG_RNAseq_pipeline: 2. Done STAR alignment.
+FILT_FASTQ_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/filteredFastq/
+ALIGNED_BAM_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/hepg2/rna_seq/hnrnpl/data/alignedBAM/
+2023-03-27T11:05:17-04:00 SPG_RNAseq_pipeline: Updating BAM progress file
+shCTL1	Done
+shCTL2	Done
+shhnRNPL1	Done
+shhnRNPL2	Done
+2023-03-27T11:05:17-04:00 SPG_RNAseq_pipeline: Starting second pass with STAR
+Submitting: shCTL1
+Starting paired-end alignment procedure...
+Submitted batch job 15036819
+Submitting: shCTL2
+Starting paired-end alignment procedure...
+Submitted batch job 15036820
+Submitting: shhnRNPL1
+Starting paired-end alignment procedure...
+Submitted batch job 15036821
+Submitting: shhnRNPL2
+Starting paired-end alignment procedure...
+Submitted batch job 15036822

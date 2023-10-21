@@ -1,0 +1,224 @@
+created virtual environment CPython3.8.10.final.0-64 in 683ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15087010.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Cython-0.29.33+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: cython
+Successfully installed cython-0.29.33+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: numpy
+Successfully installed numpy-1.24.2+computecanada
+
+The following have been reloaded with a version change:
+  1) r/4.2.1 => r/4.2.2
+
+2023-03-29T03:00:37-04:00 SPG_RNAseq_pipeline: 7. Starting rMATS..
+gtf: 16.67707371711731
+There are 55421 distinct gene ID in the gtf file
+There are 142446 distinct transcript ID in the gtf file
+There are 34299 one-transcript genes in the gtf file
+There are 841916 exons in the gtf file
+There are 26942 one-exon transcripts in the gtf file
+There are 21828 one-transcript genes with only one exon in the transcript
+Average number of transcripts per gene is 2.570253
+Average number of exons per transcript is 5.910422
+Average number of exons per transcript excluding one-exon tx is 7.055808
+Average number of gene per geneGroup is 7.450586
+statistic: 0.019055604934692383
+
+read outcome totals across all BAMs
+USED: 219046183
+NOT_PAIRED: 0
+NOT_NH_1: 236605500
+NOT_EXPECTED_CIGAR: 186643
+NOT_EXPECTED_READ_LENGTH: 0
+NOT_EXPECTED_STRAND: 0
+EXON_NOT_MATCHED_TO_ANNOTATION: 15927996
+JUNCTION_NOT_MATCHED_TO_ANNOTATION: 13014569
+CLIPPED: 0
+total: 484780891
+outcomes by BAM written to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS//tmp_rMATS_dir/2023-03-29-03_00_37_791797_read_outcomes_by_bam.txt
+
+novel: 259.95986771583557
+The splicing graph and candidate read have been saved into /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS//tmp_rMATS_dir/2023-03-29-03_00_37_791797_*.rmats
+save: 19.925175428390503
+loadsg: 0.25945520401000977
+
+==========
+Done processing each gene from dictionary to compile AS events
+Found 29961 exon skipping events
+Found 1814 exon MX events
+Found 21895 alt SS events
+There are 13069 alt 3 SS events and 8826 alt 5 SS events.
+Found 7015 RI events
+==========
+
+ase: 3.223898410797119
+count: 17.93768048286438
+Processing count files.
+Done processing count files.
+2023-03-29T03:06:38-04:00 SPG_RNAseq_pipeline: 8. Getting Sirt1 rMATS events if any..
+created virtual environment CPython3.8.10.final.0-64 in 347ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15087010.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/contourpy-1.0.7+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cycler-0.11.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fonttools-4.39.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_resources-5.12.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/kiwisolver-1.4.4+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/matplotlib-3.7.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/packaging-23.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/Pillow-9.4.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.0.9+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/pysam-0.20.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.8.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scipy-1.10.1+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/zipp-3.15.0+computecanada-py3-none-any.whl
+Installing collected packages: pysam, zipp, six, pyparsing, Pillow, packaging, numpy, kiwisolver, fonttools, cycler, scipy, python-dateutil, importlib_resources, contourpy, matplotlib
+Successfully installed Pillow-9.4.0+computecanada contourpy-1.0.7+computecanada cycler-0.11.0+computecanada fonttools-4.39.0+computecanada importlib_resources-5.12.0+computecanada kiwisolver-1.4.4+computecanada matplotlib-3.7.0+computecanada numpy-1.24.2+computecanada packaging-23.0+computecanada pyparsing-3.0.9+computecanada pysam-0.20.0+computecanada python-dateutil-2.8.2+computecanada scipy-1.10.1+computecanada six-1.16.0+computecanada zipp-3.15.0+computecanada
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_Sirt1_1/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_Sirt1_1
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.00 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_Sirt1_1/chr10
+  - Chromosome serialization took 0.02 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_Sirt1_1/genes.gff
+  - Serialization of genes from GFF took 0.53 seconds
+Indexing of GFF took 0.53 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_Sirt1_1/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 1.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_63331745_63331897_-@chr10_63326660_63326784_-@chr10_63326039_63326186_-
+Setting up plot using dimensions:  [1.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: Sirt1 WT IncLevel: 0.12
+Skipping read with CIGAR 30M1D20M
+Reading sample label: Sirt1 KO IncLevel: 0.46
+Skipping read with CIGAR 26M1D24M
+Skipping read with CIGAR 17M3D33M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_63331745_63331897_-@chr10_63326660_63326784_-@chr10_63326039_63326186_-.pdf
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM/WT1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM/WT1_2pass_Aligned.sortedByCoord.out.bam.bai'
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM/KO1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM/KO1_2pass_Aligned.sortedByCoord.out.bam.bai'
+/localscratch/subrampg.15087010.0/env/bin/python /home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/sashimi_plot.py --plot-event "chr10_63331745_63331897_-@chr10_63326660_63326784_-@chr10_63326039_63326186_-" /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_Sirt1_1 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_Sirt1_1/sashimi_plot_settings.txt --output-dir /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.02 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/chr10
+  - Chromosome serialization took 0.05 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/genes.gff
+  - Serialization of genes from GFF took 1.32 seconds
+Indexing of GFF took 1.34 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 3.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_63320000_63339251_-
+Setting up plot using dimensions:  [3.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: WT
+Skipping read with CIGAR 33M1D17M
+Skipping read with CIGAR 26M2D24M
+Skipping read with CIGAR 20M1D30M
+Skipping read with CIGAR 30M1D20M
+Reading sample label: KO
+Skipping read with CIGAR 26M1D24M
+Skipping read with CIGAR 23M1D27M
+Skipping read with CIGAR 17M3D33M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_63320000_63339251_-.pdf
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM/WT1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM/WT1_2pass_Aligned.sortedByCoord.out.bam.bai'
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM/KO1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM/KO1_2pass_Aligned.sortedByCoord.out.bam.bai'
+RMATS_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/results/rMATS/

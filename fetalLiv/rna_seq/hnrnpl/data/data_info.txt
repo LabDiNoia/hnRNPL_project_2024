@@ -1,0 +1,13 @@
+SampleID	Read_num	Original_file_name	Condition	Replicate
+WT1	1	SRR1295417_1.fastq.gz	WT	1
+WT1	2	SRR1295417_2.fastq.gz	WT	1
+WT2	1	SRR1295418_1.fastq.gz	WT	2
+WT2	2	SRR1295418_2.fastq.gz	WT	2
+WT3	1	SRR1295419_1.fastq.gz	WT	3
+WT3	2	SRR1295419_2.fastq.gz	WT	3
+KO1	1	SRR1295420_1.fastq.gz	KO	1
+KO1	2	SRR1295420_2.fastq.gz	KO	1
+KO2	1	SRR1295421_1.fastq.gz	KO	2
+KO2	2	SRR1295421_2.fastq.gz	KO	2
+KO3	1	SRR1295422_1.fastq.gz	KO	3
+KO3	2	SRR1295422_2.fastq.gz	KO	3

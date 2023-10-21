@@ -1,0 +1,4 @@
+WT1	Done
+WT2	Done
+KO1	Done
+KO2	Done

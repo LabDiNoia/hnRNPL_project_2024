@@ -1,0 +1,72 @@
+created virtual environment CPython3.8.10.final.0-64 in 603ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15001560.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Cython-0.29.33+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: cython
+Successfully installed cython-0.29.33+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: numpy
+Successfully installed numpy-1.24.2+computecanada
+
+The following have been reloaded with a version change:
+  1) r/4.2.1 => r/4.2.2
+
+2023-03-26T06:24:56-04:00 SPG_RNAseq_pipeline: 7. Starting rMATS..
+gtf: 17.049585819244385
+There are 55421 distinct gene ID in the gtf file
+There are 142446 distinct transcript ID in the gtf file
+There are 34299 one-transcript genes in the gtf file
+There are 841916 exons in the gtf file
+There are 26942 one-exon transcripts in the gtf file
+There are 21828 one-transcript genes with only one exon in the transcript
+Average number of transcripts per gene is 2.570253
+Average number of exons per transcript is 5.910422
+Average number of exons per transcript excluding one-exon tx is 7.055808
+Average number of gene per geneGroup is 7.450586
+statistic: 0.020166635513305664
+
+read outcome totals across all BAMs
+USED: 806109013
+NOT_PAIRED: 2101
+NOT_NH_1: 228323822
+NOT_EXPECTED_CIGAR: 9993566
+NOT_EXPECTED_READ_LENGTH: 0
+NOT_EXPECTED_STRAND: 0
+EXON_NOT_MATCHED_TO_ANNOTATION: 44796275
+JUNCTION_NOT_MATCHED_TO_ANNOTATION: 6394774
+CLIPPED: 0
+total: 1095619551
+outcomes by BAM written to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/actb_d1/rna_seq/hnrnpl/results/rMATS//tmp_rMATS_dir/2023-03-26-06_24_56_257824_read_outcomes_by_bam.txt
+
+novel: 607.984836101532
+The splicing graph and candidate read have been saved into /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/actb_d1/rna_seq/hnrnpl/results/rMATS//tmp_rMATS_dir/2023-03-26-06_24_56_257824_*.rmats
+save: 793.6731171607971
+loadsg: 0.46301794052124023
+
+==========
+Done processing each gene from dictionary to compile AS events
+Found 78748 exon skipping events
+Found 15092 exon MX events
+Found 69786 alt SS events
+There are 40796 alt 3 SS events and 28990 alt 5 SS events.
+Found 14778 RI events
+==========
+
+ase: 5.9513468742370605
+count: 125.90733242034912
+Processing count files.
+Done processing count files.
+2023-03-26T06:52:31-04:00 SPG_RNAseq_pipeline: 8. Getting Sirt1 rMATS events if any..
+/var/spool/slurmd/job15001560/slurm_script: line 142: syntax error near unexpected token `fi'

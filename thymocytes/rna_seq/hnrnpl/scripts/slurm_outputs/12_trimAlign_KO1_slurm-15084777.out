@@ -1,0 +1,49 @@
+2023-03-29T01:17:02-04:00 SPG_RNAseq_pipeline: 1. Starting FASTQ filtering with fastp
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 160742155
+total bases: 8037107750
+Q20 bases: 5307821987(66.0414%)
+Q30 bases: 2818944507(35.0741%)
+
+Read1 after filtering:
+total reads: 121776597
+total bases: 6088829850
+Q20 bases: 4769257589(78.328%)
+Q30 bases: 2649241296(43.5099%)
+
+Filtering result:
+reads passed filter: 121776597
+reads failed due to low quality: 38209414
+reads failed due to too many N: 756144
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 35.8896%
+
+JSON report: /dev/null
+HTML report: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/filteredFastq//KO1.html
+
+fastp --in1 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/raw_fastq/SRR364331.fastq.gz --out1 /localscratch/subrampg.15084777.0/12198/KO1//KO1.filteredFastq.gz --thread 8 --html /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/filteredFastq//KO1.html --json /dev/null 
+fastp v0.23.1, time used: 268 seconds
+2023-03-29T01:21:38-04:00 SPG_RNAseq_pipeline: 1. Done FASTQ filtering.
+2023-03-29T01:21:38-04:00 SPG_RNAseq_pipeline: 2. Starting aligning with STAR
+	STAR --runThreadN 8 --genomeDir /lustre07/scratch/subrampg/binf_analyses_data//common/star_indexes/mm10/sjdbOH_49/ --readFilesIn /localscratch/subrampg.15084777.0/12198/KO1//KO1.filteredFastq.gz --readFilesCommand gunzip -c --outSAMtype BAM Unsorted --outFileNamePrefix /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM//KO1_
+	STAR version: 2.7.9a   compiled: 2021-07-08T15:06:22+00:00 build-node.computecanada.ca:/tmp/ebuser/avx2/STAR/2.7.9a/GCCcore-9.3.0/STAR-2.7.9a/source
+Mar 29 01:21:38 ..... started STAR run
+Mar 29 01:21:38 ..... loading genome
+Mar 29 01:22:19 ..... started mapping
+Mar 29 01:36:00 ..... finished mapping
+Mar 29 01:36:01 ..... finished successfully
+2023-03-29T01:36:01-04:00 SPG_RNAseq_pipeline: 2. Done STAR alignment.
+FILT_FASTQ_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/filteredFastq/
+ALIGNED_BAM_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/thymocytes/rna_seq/hnrnpl/data/alignedBAM/
+2023-03-29T01:36:01-04:00 SPG_RNAseq_pipeline: Updating BAM progress file
+WT1
+WT2
+KO1	Done
+KO2	Done
+Waiting for WT1

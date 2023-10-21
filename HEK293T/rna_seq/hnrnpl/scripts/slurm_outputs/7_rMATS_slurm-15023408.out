@@ -1,0 +1,423 @@
+created virtual environment CPython3.8.10.final.0-64 in 505ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15023408.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Cython-0.29.33+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: cython
+Successfully installed cython-0.29.33+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: numpy
+Successfully installed numpy-1.24.2+computecanada
+
+The following have been reloaded with a version change:
+  1) r/4.2.1 => r/4.2.2
+
+2023-03-27T02:36:35-04:00 SPG_RNAseq_pipeline: 7. Starting rMATS..
+gtf: 29.883055448532104
+There are 62757 distinct gene ID in the gtf file
+There are 252972 distinct transcript ID in the gtf file
+There are 38714 one-transcript genes in the gtf file
+There are 1649215 exons in the gtf file
+There are 26177 one-exon transcripts in the gtf file
+There are 23377 one-transcript genes with only one exon in the transcript
+Average number of transcripts per gene is 4.030977
+Average number of exons per transcript is 6.519358
+Average number of exons per transcript excluding one-exon tx is 7.156410
+Average number of gene per geneGroup is 8.662752
+statistic: 0.029723167419433594
+
+read outcome totals across all BAMs
+USED: 346954086
+NOT_PAIRED: 18838
+NOT_NH_1: 218637172
+NOT_EXPECTED_CIGAR: 1797512
+NOT_EXPECTED_READ_LENGTH: 0
+NOT_EXPECTED_STRAND: 0
+EXON_NOT_MATCHED_TO_ANNOTATION: 3320118
+JUNCTION_NOT_MATCHED_TO_ANNOTATION: 422402
+CLIPPED: 0
+total: 571150128
+outcomes by BAM written to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS//tmp_rMATS_dir/2023-03-27-02_36_35_654328_read_outcomes_by_bam.txt
+
+novel: 339.56921315193176
+The splicing graph and candidate read have been saved into /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS//tmp_rMATS_dir/2023-03-27-02_36_35_654328_*.rmats
+save: 71.15201783180237
+loadsg: 0.6328608989715576
+
+==========
+Done processing each gene from dictionary to compile AS events
+Found 141597 exon skipping events
+Found 25858 exon MX events
+Found 95720 alt SS events
+There are 55817 alt 3 SS events and 39903 alt 5 SS events.
+Found 24754 RI events
+==========
+
+ase: 10.506594896316528
+count: 44.92212700843811
+Processing count files.
+Done processing count files.
+2023-03-27T02:47:10-04:00 SPG_RNAseq_pipeline: 8. Getting Sirt1 rMATS events if any..
+created virtual environment CPython3.8.10.final.0-64 in 1902ms
+  creator CPython3Posix(dest=/localscratch/subrampg.15023408.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/subrampg/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-23.0+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-23.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/contourpy-1.0.7+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cycler-0.11.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fonttools-4.39.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_resources-5.12.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/kiwisolver-1.4.4+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/matplotlib-3.7.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/packaging-23.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/Pillow-9.4.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.0.9+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/pysam-0.20.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.8.2+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scipy-1.10.1+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/zipp-3.15.0+computecanada-py3-none-any.whl
+Installing collected packages: pysam, zipp, six, pyparsing, Pillow, packaging, numpy, kiwisolver, fonttools, cycler, scipy, python-dateutil, importlib_resources, contourpy, matplotlib
+Successfully installed Pillow-9.4.0+computecanada contourpy-1.0.7+computecanada cycler-0.11.0+computecanada fonttools-4.39.0+computecanada importlib_resources-5.12.0+computecanada kiwisolver-1.4.4+computecanada matplotlib-3.7.0+computecanada numpy-1.24.2+computecanada packaging-23.0+computecanada pyparsing-3.0.9+computecanada pysam-0.20.0+computecanada python-dateutil-2.8.2+computecanada scipy-1.10.1+computecanada six-1.16.0+computecanada zipp-3.15.0+computecanada
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.02 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/chr10
+  - Chromosome serialization took 0.06 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/genes.gff
+  - Serialization of genes from GFF took 2.62 seconds
+Indexing of GFF took 2.64 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 1.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_67891484_67891554_+@chr10_67906163_67906287_+@chr10_67906790_67906937_+
+Setting up plot using dimensions:  [1.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: SIRT1 CTLi IncLevel: 0.08
+Skipping read with CIGAR 9M1108N41M1I25M
+Skipping read with CIGAR 40M1D36M
+Reading sample label: SIRT1 hnRNPLi IncLevel: 0.38
+Skipping read with CIGAR 1S48M1I26M
+Skipping read with CIGAR 38M1I37M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_67891484_67891554_+@chr10_67906163_67906287_+@chr10_67906790_67906937_+.pdf
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.01 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/chr10
+  - Chromosome serialization took 0.06 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/genes.gff
+  - Serialization of genes from GFF took 6.35 seconds
+Indexing of GFF took 6.36 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 1.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_67891484_67891554_+@chr10_67906166_67906287_+@chr10_67906790_67906937_+
+Setting up plot using dimensions:  [1.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: SIRT1 CTLi IncLevel: 0.03
+Skipping read with CIGAR 9M1108N41M1I25M
+Skipping read with CIGAR 40M1D36M
+Reading sample label: SIRT1 hnRNPLi IncLevel: 0.16
+Skipping read with CIGAR 1S48M1I26M
+Skipping read with CIGAR 38M1I37M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_67891484_67891554_+@chr10_67906166_67906287_+@chr10_67906790_67906937_+.pdf
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/data/alignedBAM/CTLi1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/data/alignedBAM/CTLi1_2pass_Aligned.sortedByCoord.out.bam.bai'
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/data/alignedBAM/hnRNPLi1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/data/alignedBAM/hnRNPLi1_2pass_Aligned.sortedByCoord.out.bam.bai'
+/localscratch/subrampg.15023408.0/env/bin/python /home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/sashimi_plot.py --plot-event "chr10_67891484_67891554_+@chr10_67906163_67906287_+@chr10_67906790_67906937_+" /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_1/sashimi_plot_settings.txt --output-dir /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot
+/localscratch/subrampg.15023408.0/env/bin/python /home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/sashimi_plot.py --plot-event "chr10_67891484_67891554_+@chr10_67906166_67906287_+@chr10_67906790_67906937_+" /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2 /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index_SIRT1_2/sashimi_plot_settings.txt --output-dir /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot
+<module 'misopy' from '/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/__init__.py'>
+Indexing GFF...
+  - GFF: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/tmp.gff3
+  - Outputting to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index
+Through 0 genes...
+Loaded 1 genes
+  - Loading of genes from GFF took 0.02 seconds
+Making directory: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/chr10
+  - Chromosome serialization took 0.06 seconds
+Outputting gene records in GFF format...
+  - Output file: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/genes.gff
+  - Serialization of genes from GFF took 4.61 seconds
+Indexing of GFF took 4.63 seconds.
+/home/subrampg/local_installs/rmats2sashimiplot/src/MISO/misopy/sashimi_plot/plot_utils/plot_gene.py:454: UserWarning: FixedFormatter should only be used together with FixedLocator
+  curr_ax.set_yticklabels(curr_yticklabels,
+Reading settings from: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_index/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_height
+Parsing plotting:fig_width
+Parsing plotting:exon_scale
+Parsing plotting:intron_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:plot_title
+Parsing plotting:plot_label
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:reverse_minus
+Parsing plotting:min_counts
+Parsing plotting:text_background
+Parsing plotting:group_info
+Parsing plotting:colors
+Parsing plotting:sample_labels
+Reading dimensions from settings...
+ - Height: 4.00
+ - Width: 3.50
+Plotting read densities and MISO estimates along event...
+  - Event: chr10_67884650_67918001_+
+Setting up plot using dimensions:  [3.5, 4.0]
+Using intron scale  15.0
+Using exon scale  1.0
+Reading sample label: CTLi
+Skipping read with CIGAR 26M1D50M
+Skipping read with CIGAR 10M1D65M1S
+Skipping read with CIGAR 9M1108N41M1I25M
+Skipping read with CIGAR 21M1D55M
+Skipping read with CIGAR 51M2D21M4S
+Skipping read with CIGAR 56M1I19M
+Skipping read with CIGAR 30M1I45M
+Skipping read with CIGAR 29M1I46M
+Skipping read with CIGAR 24M1I50M1S
+Skipping read with CIGAR 34M4D42M
+Skipping read with CIGAR 32M4D44M
+Skipping read with CIGAR 32M4D44M
+Skipping read with CIGAR 31M4D45M
+Skipping read with CIGAR 31M4D45M
+Skipping read with CIGAR 29M4D47M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 23M4D53M
+Skipping read with CIGAR 17M4D59M
+Skipping read with CIGAR 15M4D61M
+Skipping read with CIGAR 15M4D61M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 4S47M1I24M
+Skipping read with CIGAR 2S47M1I26M
+Skipping read with CIGAR 39M1I36M
+Skipping read with CIGAR 39M1I36M
+Skipping read with CIGAR 36M1D40M
+Skipping read with CIGAR 41M1D35M
+Skipping read with CIGAR 25M1D51M
+Skipping read with CIGAR 52M1D24M
+Skipping read with CIGAR 52M1D24M
+Skipping read with CIGAR 52M1D24M
+Skipping read with CIGAR 40M1D36M
+Skipping read with CIGAR 27M2D12M1130N37M
+Skipping read with CIGAR 29M1D47M
+Skipping read with CIGAR 38M3I35M
+Skipping read with CIGAR 37M1I38M
+Skipping read with CIGAR 37M1I38M
+Skipping read with CIGAR 34M1I41M
+Skipping read with CIGAR 24M2I50M
+Skipping read with CIGAR 22M1I53M
+Skipping read with CIGAR 19M1I54M2S
+Skipping read with CIGAR 36M4D40M
+Skipping read with CIGAR 32M4D44M
+Skipping read with CIGAR 32M4D44M
+Skipping read with CIGAR 31M4D45M
+Skipping read with CIGAR 31M4D45M
+Skipping read with CIGAR 31M4D45M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 24M4D52M
+Skipping read with CIGAR 16M4D60M
+Skipping read with CIGAR 16M4D60M
+Skipping read with CIGAR 15M4D61M
+Skipping read with CIGAR 12M4D64M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 33M1I42M
+Skipping read with CIGAR 21M1D55M
+Skipping read with CIGAR 31M1D45M
+Skipping read with CIGAR 41M2D35M
+Skipping read with CIGAR 62M1D14M
+Skipping read with CIGAR 22M1D54M
+Skipping read with CIGAR 25M1D51M
+Skipping read with CIGAR 54M1D22M
+Skipping read with CIGAR 33M2D43M
+Skipping read with CIGAR 36M1D40M
+Skipping read with CIGAR 56M1D20M
+Skipping read with CIGAR 56M2D20M
+Reading sample label: hnRNPLi
+Skipping read with CIGAR 8M1D68M
+Skipping read with CIGAR 62M1I13M
+Skipping read with CIGAR 1S48M1I26M
+Skipping read with CIGAR 38M1I37M
+Skipping read with CIGAR 37M1D39M
+Skipping read with CIGAR 27M1D49M
+Skipping read with CIGAR 16M1D60M
+Skipping read with CIGAR 45M1D31M
+Skipping read with CIGAR 40M1I35M
+Skipping read with CIGAR 33M1I42M
+Skipping read with CIGAR 24M1I51M
+Skipping read with CIGAR 24M1I51M
+Skipping read with CIGAR 38M4D38M
+Skipping read with CIGAR 34M4D42M
+Skipping read with CIGAR 32M4D44M
+Skipping read with CIGAR 29M4D47M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 24M4D52M
+Skipping read with CIGAR 24M4D52M
+Skipping read with CIGAR 15M4D61M
+Skipping read with CIGAR 15M4D61M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 23M2I49M2S
+Skipping read with CIGAR 29M2I45M
+Skipping read with CIGAR 26M1D50M
+Skipping read with CIGAR 26M1D50M
+Skipping read with CIGAR 53M1D23M
+Skipping read with CIGAR 53M1D23M
+Skipping read with CIGAR 1S39M1D36M
+Skipping read with CIGAR 43M1D33M
+Skipping read with CIGAR 47M1D29M
+Skipping read with CIGAR 47M1D29M
+Skipping read with CIGAR 21M1D29M2278N26M
+Skipping read with CIGAR 21M1D29M2278N26M
+Skipping read with CIGAR 19M1D57M
+Skipping read with CIGAR 31M1D45M
+Skipping read with CIGAR 56M2I18M
+Skipping read with CIGAR 35M1I40M
+Skipping read with CIGAR 19M2I55M
+Skipping read with CIGAR 31M1I44M
+Skipping read with CIGAR 34M4D42M
+Skipping read with CIGAR 32M4D44M
+Skipping read with CIGAR 31M4D45M
+Skipping read with CIGAR 29M4D47M
+Skipping read with CIGAR 29M4D47M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 27M4D49M
+Skipping read with CIGAR 20M4D56M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 11M4D65M
+Skipping read with CIGAR 18M1D58M
+Skipping read with CIGAR 23M1D53M
+Skipping read with CIGAR 34M1D42M
+Skipping read with CIGAR 34M1D42M
+Skipping read with CIGAR 60M1D16M
+Skipping read with CIGAR 60M1D16M
+Skipping read with CIGAR 60M1D16M
+Skipping read with CIGAR 59M1D17M
+Skipping read with CIGAR 24M1D52M
+Skipping read with CIGAR 15M1D61M
+Saving plot to: /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/rMATS2sashimiPlot_outputs/Sashimi_plot/chr10_67884650_67918001_+.pdf
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/data/alignedBAM/CTLi1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/data/alignedBAM/CTLi1_2pass_Aligned.sortedByCoord.out.bam.bai'
+'/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/data/alignedBAM/hnRNPLi1_2pass_Aligned.sortedByCoord.out.bam' is indexed already: '/lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/data/alignedBAM/hnRNPLi1_2pass_Aligned.sortedByCoord.out.bam.bai'
+RMATS_DIR = /lustre07/scratch/subrampg/binf_analyses_data/hnrnpl_project/HEK293T/rna_seq/hnrnpl/results/rMATS/

@@ -1,0 +1,5 @@
+SampleID	Norm
+shCTL1	1
+shCTL2	1
+shhnRNPL1	1
+shhnRNPL2	1

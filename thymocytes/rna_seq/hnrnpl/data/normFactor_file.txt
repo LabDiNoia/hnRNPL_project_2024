@@ -1,0 +1,5 @@
+SampleID	Norm
+WT1	1
+WT2	1
+KO1	1
+KO2	1
