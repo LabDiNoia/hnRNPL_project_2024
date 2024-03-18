@@ -55,6 +55,11 @@ saveRDS(allGSEA_dt,"./R_rds_files/allGSEA_dt.rds")
 require(data.table)
 allGSEA_dt<-readRDS("./R_rds_files/allGSEA_dt.rds")
 
+p53_leadingEdge<-allGSEA_dt[dataset=="actb_d1" & pathway=="HALLMARK_P53_PATHWAY", unlist(leadingEdge)]
+allNormcounts_dt[dataset=="actb_d1"][gene_id_noVer %in% p53_leadingEdge][order(log2FoldChange,decreasing = T)]
+write.table(allNormcounts_dt[dataset=="actb_d1"][gene_id_noVer %in% p53_leadingEdge][order(log2FoldChange,decreasing = T)],
+            "./R_rds_files/HM_p53_leadingEdge_actB.txt", sep="\t", quote=F, row.names=F)
+
 # make comparative GSEA heatmaps
 #1. create matrix to plot?
 # dcast to convert to wide format. take only padj<0.1

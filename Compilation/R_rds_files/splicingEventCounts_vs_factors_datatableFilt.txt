@@ -1,0 +1,10 @@
+dataset	Description	mouse_or_human	stranded	SE_or_PE	read_length	mean_mapped_counts	n_in_covFilt0	ngenes_in_covFilt0	n_in_covFilt10	ngenes_in_covFilt10
+HEK293T	HEK293T	Human	No	PE	76	44061791.25	8744	4426	5006	2743
+actb_d1	Activated B	Mouse	Yes	PE	150	72274756.8333333	5818	2847	4733	2427
+bjFibro	BJ	Human	?	PE	50	21740145	3311	2071	1435	943
+fetalLiv	Fetal liver	Mouse	Yes	PE	50	74464748.5	4920	2853	3756	2283
+hepg2	HepG2	Human	Yes	PE	100	29470568	6909	3514	3953	2195
+k562	K562	Human	Yes	PE	100	39310519.75	8906	3981	5115	2520
+kcytes	Keratinocytes	Human	No	PE	150	31825360.25	17841	6382	12198	4886
+lncap	LNCaP	Human	Yes	PE	49	35178113.75	2413	1610	1049	697
+thymocytes	Thymocytes	Mouse	No	SE	50	62043847.75	1567	1220	774	606

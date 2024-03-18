@@ -1,0 +1,1017 @@
+GLAM2: Gapped Local Alignment of Motifs
+Version 1056
+
+/data/apache-tomcat/instance/meme/work/meme-5.5.5/bin/glam2 -Q -O . -M -z 2 -a 2 -b 12 -w 8 -r 10 -n 2000 -D 0.1 -E 2.0 -I 0.02 -J 1.0 n cons_SEonly_seqs.fa
+Sequences: 77
+Greatest sequence length: 833
+Residue counts: a=3732 c=2817 g=2515 t=3494 N=0
+
+Score: 498.241  Columns: 9  Sequences: 73
+
+                 *********
+HNRNPR_ev1    88 cacacagaa  96 + 10.5
+HNRNPR_ev2    85 cacacagaa  93 + 10.5
+YIPF1_ev1     63 aacccagct  71 + 7.89
+ZRANB2_ev1    17 aacactaaa  25 + 8.81
+ZRANB2_ev2    13 aacactaaa  21 + 8.81
+SELENOF_ev1   19 aacccaaac  27 + 7.13
+UBAP2L_ev1   118 aaaccagac 126 + 8.61
+UBAP2L_ev2    37 ccagcagga  45 + 2.74
+EPC1_ev1      72 aaatcaaca  80 + 6.93
+SIRT1_ev1     42 cacacaaaa  50 + 10.0
+UROS_ev1     216 cacactgct 224 + 7.89
+FGFR1OP2_ev1 106 aaatcagaa 114 + 7.93
+SPATS2_ev1   124 aacacacat 132 + 7.61
+PPP1R12A_ev1  48 caagcacca  56 + 7.13
+LUC7L_ev1     28 caatctgca  36 + 6.29
+TMEM219_ev1   39 caagcaaca  47 + 8.62
+SMPD4_ev1     56 aacccagcc  64 + 6.98
+BAZ2B_ev1    120 aaaacaact 128 + 9.58
+ORMDL1_ev1   149 aaaactgaa 157 + 10.3
+GNAS_ev1      60 aaaccagaa  68 + 10.4
+GNAS_ev2      21 caggctgca  29 + 4.87
+NSD2_ev1      38 aacccagct  46 + 7.89
+NSD2_ev2     201 aaaacagat 209 + 10.6
+SEC31A_ev1     6 caaccagcc  14 + 8.12
+SEC31A_ev2     6 caaccagcc  14 + 8.12
+GPBP1_ev1     29 caaccaaaa  37 + 10.0
+NQO2_ev1     153 caaacaaca 161 + 10.5
+MAP3K7_ev1    30 aaaactgct  38 + 8.86
+SPTLC1_ev1    75 ccaacaaaa  83 + 7.73
+SPTLC1_ev2    54 ccaactaaa  62 + 6.59
+TRMO_ev1      77 cacactaca  85 + 8.31
+KDM6A_ev1     50 caaacacca  58 + 9.02
+SH3BGRL_ev1  133 cacacaaaa 141 + 10.0
+Sirt1_ev1     33 cacccacca  41 + 6.90
+Ppp1r12a_ev1 104 cagacagaa 112 + 8.47
+Smc6_ev1      95 aaaacaaac 103 + 9.25
+Togaram1_ev1 115 taaactaaa 123 + 6.06
+Ptgr2_ev1     38 caatcacaa  46 + 6.10
+Cinp_ev1      43 aaagcaaat  51 + 8.27
+Gpbp1_ev1     29 cacgcacaa  37 + 6.66
+Ppp3cb_ev1     9 ccgactacc  17 + 1.22
+Slx4_ev1     103 cagccagct 111 + 5.99
+Cd47_ev1      34 taaacagat  42 + 6.78
+Usp16_ev1    121 aacccaaaa 129 + 8.89
+Luc7l_ev1     60 caaacagca  68 + 10.9
+Epc1_ev1      72 aaaaaagaa  80 + 7.09
+Ppp6r3_ev1    29 tacactgga  37 + 1.90
+Baz2b_ev1    250 aaaccaagt 258 + 5.56
+Gnas_ev1      90 cagccagca  98 + 6.83
+Ubap2l_ev2   219 aaaactgct 227 + 8.86
+Map3k7_ev1    23 cacccacac  31 + 5.73
+Cep85_ev1      5 aaaaatggt  13 + 1.57
+Hnrnpr_ev1   139 caaacagaa 147 + 11.5
+Hnrnpr_ev2   121 caaacagaa 129 + 11.5
+Usp48_ev1     18 aaaaaagat  26 + 6.25
+Vps13d_ev1   112 ccagctaat 120 + 3.86
+Vps13d_ev2    31 caacctcta  39 + 2.58
+Vps13d_ev3    31 caacctcta  39 + 2.58
+Nsd2_ev1       2 aaaactaca  10 + 9.28
+Nsd2_ev2       2 aaaactaca  10 + 9.28
+Sec31a_ev1   166 aaaacaaat 174 + 10.2
+Sec31a_ev2   166 aaaacaaat 174 + 10.2
+Cdc7_ev1      75 cagacagaa  83 + 8.47
+Uba3_ev1      35 acagcaact  43 + 4.34
+Ift122_ev1   185 caaccacaa 193 + 8.53
+Fgfr1op2_ev1  42 aaagctgac  50 + 6.65
+Fgfr1op2_ev2  42 aaagctgac  50 + 6.65
+Fgfr1op2_ev3  42 aaagctgac  50 + 6.65
+Arhgef1_ev1   16 cacacaact  24 + 8.61
+Zfp260_ev1   121 aaaacaaat 129 + 10.2
+Arhgef18_ev1 122 accccagat 130 + 5.11
+Kdm6a_ev1     56 aacaaagct  64 + 4.62
+5530601H04Ri 150 cacactgac 158 + 7.56
+
+                 caaacagaa
+                 a cc tact
+
+ a  c  g  t Del Ins Score
+34 36  0  3   0      48.4
+                  0 -0.140
+66  7  0  0   0      103.
+                  0 -0.140
+45 22  6  0   0      45.3
+                  0 -0.140
+39 19 11  4   0      17.4
+                  0 -0.140
+ 4 69  0  0   0      114.
+                  0 -0.140
+50  0  0 23   0      70.8
+                  0 -0.140
+27 10 36  0   0      32.2
+                  0 -0.140
+40 27  4  2   0      35.9
+                  0 -0.140
+39 12  0 22   0      31.7
+
+Score: 487.978  Columns: 8  Sequences: 77
+
+                 ********
+HNRNPR_ev1    62 aaccaatg  69 + 8.12
+HNRNPR_ev2    59 aaccaatg  66 + 8.12
+YIPF1_ev1     99 aaccactg 106 + 6.06
+ZRANB2_ev1    61 cactactt  68 + 7.67
+ZRANB2_ev2    57 cactactt  64 + 7.67
+SELENOF_ev1   39 ctgcaaat  46 + 5.18
+UBAP2L_ev1    25 aagcattt  32 + 8.26
+UBAP2L_ev2    23 ctctgttg  30 + 3.92
+EPC1_ev1      68 cagtaaat  75 + 8.16
+SIRT1_ev1    117 aacaattt 124 + 8.17
+PPP3CB_ev1     2 cacagttg   9 + 5.85
+UROS_ev1     218 cactgctg 225 + 5.23
+FGFR1OP2_ev1 102 aagcaaat 109 + 7.42
+SPATS2_ev1   137 cagcattt 144 + 8.37
+PPP1R12A_ev1  92 cagaaaag  99 + 6.86
+LUC7L_ev1      4 cagtgtat  11 + 5.57
+TMEM219_ev1   82 aagcattt  89 + 8.26
+SMPD4_ev1     40 ctctacag  47 + 2.58
+BAZ2B_ev1    122 aacaactt 129 + 7.13
+ORMDL1_ev1    26 aagcaatt  33 + 9.28
+GNAS_ev1     193 cacaattt 200 + 8.29
+GNAS_ev2      38 cagcgatg  45 + 6.95
+NSD2_ev1      55 ctgcactt  62 + 4.98
+NSD2_ev2     210 aacaaatt 217 + 9.19
+SEC31A_ev1    43 cagcaatg  50 + 8.52
+SEC31A_ev2    43 cagcaatg  50 + 8.52
+GPBP1_ev1     34 aaaaaaat  41 + 4.08
+NQO2_ev1     141 aagcattt 148 + 8.26
+MAP3K7_ev1    32 aactgctt  39 + 5.99
+SPTLC1_ev1   107 cagtaaat 114 + 8.16
+SPTLC1_ev2    56 aactaaat  63 + 7.76
+TRMO_ev1      31 cagtgctg  38 + 5.51
+KDM6A_ev1     54 caccaatt  61 + 9.11
+SH3BGRL_ev1   62 caccaatt  69 + 9.11
+Sirt1_ev1     20 ctgagatt  27 + 5.67
+Ppp1r12a_ev1 140 cagtaatg 147 + 9.14
+Smc6_ev1      78 aagaactt  85 + 7.41
+Togaram1_ev1 117 aactaaat 124 + 7.76
+Ptgr2_ev1     42 cacaaatt  49 + 9.31
+Cinp_ev1      44 aagcaaat  51 + 7.42
+Gpbp1_ev1     40 cagtgatt  47 + 8.45
+Ppp3cb_ev1    17 cagtattg  24 + 8.12
+Slx4_ev1     247 aaccgctg 254 + 4.49
+Cd47_ev1      36 aacagata  43 + 0.709
+Usp16_ev1    165 caataatg 172 + 5.60
+Luc7l_ev1     40 cagagttg  47 + 6.13
+Epc1_ev1      23 caaaaaag  30 + 3.32
+Riok3_ev1     72 atctattt  79 + 6.24
+Ppp6r3_ev1    13 atgtatag  20 + 3.79
+Baz2b_ev1     53 caccaaat  60 + 7.25
+Gnas_ev1     135 ctcctatt 142 + 2.25
+Ubap2l_ev1    35 ctgagaat  42 + 3.81
+Ubap2l_ev2   208 aagaattt 215 + 8.45
+Map3k7_ev1    29 caccattt  36 + 8.09
+Cep85_ev1    110 atgtattt 117 + 6.52
+Hnrnpr_ev1   153 aacaattt 160 + 8.17
+Hnrnpr_ev2   135 aacaattt 142 + 8.17
+Usp48_ev1     20 aaaagatg  27 + 3.50
+Vps13d_ev1    52 aagtgatt  59 + 8.33
+Vps13d_ev2    52 aagtgatt  59 + 8.33
+Vps13d_ev3    52 aagtgatt  59 + 8.33
+Nsd2_ev1      87 aagaattg  94 + 7.58
+Nsd2_ev2      87 aagaattg  94 + 7.58
+Sec31a_ev1   207 cagtaatt 214 + 10.0
+Sec31a_ev2   207 cagtaatt 214 + 10.0
+Cdc7_ev1      65 aagttatt  72 + 5.40
+Uba3_ev1       1 aagaatat   8 + 6.60
+Ift122_ev1    30 ctcaaatt  37 + 6.95
+Fgfr1op2_ev1   6 cactaatg  13 + 8.86
+Fgfr1op2_ev2   6 cactaatg  13 + 8.86
+Fgfr1op2_ev3   6 cactaatg  13 + 8.86
+Arhgef1_ev1  235 cagtaatt 242 + 10.0
+Zfp260_ev1   123 aacaaatt 130 + 9.19
+Smg1_ev1      23 atcttatt  30 + 2.76
+Arhgef18_ev1  97 atgtgatg 104 + 5.11
+Kdm6a_ev1    136 aagagtat 143 + 5.03
+5530601H04Ri  92 cagtaatg  99 + 9.14
+
+                 cagtaatt
+                 a cagtag
+                    c    
+
+ a  c  g  t Del Ins Score
+37 40  0  0   0      67.4
+                  0 -0.142
+64  0  0 13   0      94.0
+                  0 -0.142
+ 4 33 40  0   0      49.1
+                  0 -0.142
+24 21  0 32   0      23.9
+                  0 -0.142
+55  0 19  3   0      65.3
+                  0 -0.142
+44 11  0 22   0      38.1
+                  0 -0.142
+17  0  0 60   0      85.8
+                  0 -0.142
+ 1  0 27 49   0      65.4
+
+Score: 484.606  Columns: 10  Sequences: 74
+
+                 **********
+HNRNPR_ev1    72 tacttccagt  81 + 10.9
+HNRNPR_ev2    69 tacttccagt  78 + 10.9
+YIPF1_ev1    148 tctttcaaac 157 + 9.43
+ZRANB2_ev1    64 tactttaccc  73 + 4.23
+ZRANB2_ev2    60 tactttaccc  69 + 4.23
+SELENOF_ev1   37 gactgcaaat  46 + 8.12
+UBAP2L_ev1   261 catttcaagt 270 + 11.1
+UBAP2L_ev2     8 tatttgcaga  17 + 7.64
+EPC1_ev1      44 tctttcctca  53 + 7.56
+SIRT1_ev1     99 cctgtgcagt 108 + 4.20
+UROS_ev1      72 cactgccact  81 + 7.96
+FGFR1OP2_ev1  60 tccttgaagc  69 + 7.32
+SPATS2_ev1    23 gcttccaagt  32 + 7.24
+PPP1R12A_ev1 103 gctttccagc 112 + 9.53
+LUC7L_ev1     16 gcctgcctac  25 + 5.65
+TMEM219_ev1   34 tctttcaagc  43 + 10.1
+SMPD4_ev1     71 ccctccacgc  80 + 3.50
+BAZ2B_ev1    275 tacttcaagc 284 + 10.9
+ORMDL1_ev1    20 tattttaagc  29 + 8.16
+GNAS_ev1     196 aatttcctga 205 + 5.74
+NSD2_ev1      32 gatttgaacc  41 + 7.95
+NSD2_ev2      32 gatttgaacc  41 + 7.95
+SEC31A_ev1    80 tacttcaaac  89 + 10.2
+SEC31A_ev2    80 tacttcaaac  89 + 10.2
+GPBP1_ev1      2 gcctacacgc  11 + 3.97
+NQO2_ev1     144 catttcatac 153 + 9.35
+MAP3K7_ev1     3 tattccaagc  12 + 8.44
+SPTLC1_ev1    55 gactctaaat  64 + 4.17
+SPTLC1_ev2    79 gatttcaaat  88 + 10.5
+TRMO_ev1      38 gatgtcaact  47 + 7.51
+KDM6A_ev1     72 ccttgccact  81 + 7.21
+SH3BGRL_ev1   49 cccttcacac  58 + 5.64
+Sirt1_ev1     14 gattagctga  23 + 4.05
+Ppp1r12a_ev1  24 tatttgctct  33 + 7.56
+Smc6_ev1      72 gatttcaaga  81 + 9.93
+Togaram1_ev1   7 aatttcatgc  16 + 6.96
+Ptgr2_ev1     62 catgtccaga  71 + 6.48
+Cinp_ev1       5 acctttaaat  14 + 2.70
+Gpbp1_ev1     47 tcttatctgt  56 + 3.84
+Ppp3cb_ev1    11 gactaccagt  20 + 8.14
+Slx4_ev1     175 tcctccctcc 184 + 5.31
+Cd47_ev1      50 gatggcatct  59 + 4.72
+Usp16_ev1     90 gactgcaagc  99 + 8.52
+Luc7l_ev1     54 gcttttcaaa  63 + 4.75
+Epc1_ev1      17 gacttgcaaa  26 + 6.19
+Riok3_ev1     66 tattgcatct  75 + 8.22
+Ppp6r3_ev1    79 tgcttgctgt  88 + 0.769
+Baz2b_ev1     20 gctttcaagt  29 + 10.1
+Gnas_ev1      70 gcctcccacc  79 + 5.75
+Ubap2l_ev2   199 catttccaaa 208 + 8.93
+Map3k7_ev1    32 catttcctgt  41 + 10.1
+Cep85_ev1     87 tccttgcaat  96 + 6.68
+Hnrnpr_ev1    84 tatgtcatct  93 + 7.07
+Hnrnpr_ev2    66 tatgtcatct  75 + 7.07
+Usp48_ev1     45 gccttcccaa  54 + 4.49
+Vps13d_ev1    26 cactgcaacc  35 + 7.90
+Vps13d_ev2    26 cactgcaacc  35 + 7.90
+Vps13d_ev3    26 cactgcaacc  35 + 7.90
+Nsd2_ev1      19 tctttcataa  28 + 7.66
+Nsd2_ev2      19 tctttcataa  28 + 7.66
+Sec31a_ev1    45 cacttccaat  54 + 9.81
+Sec31a_ev2    45 cacttccaat  54 + 9.81
+Cdc7_ev1      69 tattcccaga  78 + 7.23
+Uba3_ev1      19 cattgcatct  28 + 7.80
+Ift122_ev1    50 tcttgcctat  59 + 6.70
+Fgfr1op2_ev1  21 cattacctgt  30 + 7.67
+Fgfr1op2_ev2  21 cattacctgt  30 + 7.67
+Fgfr1op2_ev3  21 cattacctgt  30 + 7.67
+Arhgef1_ev1  730 gatttcaagt 739 + 11.2
+Zfp260_ev1    43 cactacatcc  52 + 6.66
+Smg1_ev1       1 tatgtcctgt  10 + 7.39
+Arhgef18_ev1  96 catgtgatgt 105 + 4.78
+Kdm6a_ev1    124 tactaccacc 133 + 7.64
+5530601H04Ri 156 gacttccaca 165 + 8.74
+
+                 tatttcaagt
+                 gcc   ctcc
+                 c       a 
+
+ a  c  g  t Del Ins Score
+ 3 21 22 28   0      8.48
+                  0 -0.141
+50 23  1  0   0      65.3
+                  0 -0.141
+ 0 32  0 42   0      65.4
+                  0 -0.141
+ 0  0  8 66   0      102.
+                  0 -0.141
+ 9  7 12 46   0      24.1
+                  0 -0.141
+ 0 56 11  7   0      61.8
+                  0 -0.141
+40 34  0  0   0      64.8
+                  0 -0.141
+43  6  0 25   0      43.8
+                  0 -0.141
+20 22 32  0   0      23.3
+                  0 -0.141
+14 27  0 33   0      26.9
+
+Score: 484.333  Columns: 8  Sequences: 75
+
+                 ********
+HNRNPR_ev1   159 atttcaga 166 + 9.27
+HNRNPR_ev2   156 atttcaga 163 + 9.27
+YIPF1_ev1    149 ctttcaaa 156 + 8.48
+ZRANB2_ev1     8 attggtga  15 + 4.32
+ZRANB2_ev2     4 attggtga  11 + 4.32
+SELENOF_ev1   38 actgcaaa  45 + 8.32
+UBAP2L_ev1   262 atttcaag 269 + 7.91
+UBAP2L_ev2    10 tttgcaga  17 + 7.90
+EPC1_ev1      62 tctgtaca  69 + 6.19
+SIRT1_ev1     76 actctata  83 + 4.89
+UROS_ev1     163 gttttaaa 170 + 7.93
+FGFR1OP2_ev1  82 actggaga  89 + 5.35
+SPATS2_ev1    36 cctgcaaa  43 + 6.85
+PPP1R12A_ev1  88 gcttcaga  95 + 5.58
+LUC7L_ev1     42 gttgcaga  49 + 5.99
+TMEM219_ev1   53 attttaag  60 + 8.56
+SMPD4_ev1     39 cctctaca  46 + 3.42
+BAZ2B_ev1    276 acttcaag 283 + 6.89
+ORMDL1_ev1   131 tttttaaa 138 + 9.85
+GNAS_ev1      72 attgttaa  79 + 7.95
+GNAS_ev2      24 gctgcaag  31 + 3.61
+NSD2_ev1      76 attccagg  83 + 4.57
+NSD2_ev2     215 attttaag 222 + 8.56
+SEC31A_ev1    81 acttcaaa  88 + 8.94
+SEC31A_ev2    81 acttcaaa  88 + 8.94
+GPBP1_ev1     54 tctcttag  61 + 2.09
+NQO2_ev1     145 atttcata 152 + 7.92
+MAP3K7_ev1     4 attccaag  11 + 5.25
+SPTLC1_ev1    56 actctaaa  63 + 6.93
+SPTLC1_ev2    80 atttcaaa  87 + 9.96
+TRMO_ev1      95 attggtca 102 + 2.97
+KDM6A_ev1     59 atttcaca  66 + 7.92
+SH3BGRL_ev1  144 tttgtaag 151 + 7.19
+Sirt1_ev1     62 atttttag  69 + 6.52
+Ppp1r12a_ev1  36 tttgtata  43 + 7.20
+Smc6_ev1      73 atttcaag  80 + 7.91
+Togaram1_ev1  87 attgttaa  94 + 7.95
+Ptgr2_ev1    104 cttttaga 111 + 8.45
+Cinp_ev1       6 cctttaaa  13 + 8.11
+Gpbp1_ev1      9 cctctata  16 + 3.42
+Slx4_ev1     126 atttctgg 133 + 5.18
+Cd47_ev1       2 attttaga   9 + 9.92
+Usp16_ev1     66 cttttaaa  73 + 9.13
+Luc7l_ev1     56 ttttcaaa  63 + 9.20
+Epc1_ev1      19 cttgcaaa  26 + 7.87
+Riok3_ev1     60 atttttta  67 + 6.53
+Ppp6r3_ev1    32 actggagg  39 + 3.31
+Baz2b_ev1    217 cttttaga 224 + 8.45
+Gnas_ev1     116 gcttcaag 123 + 4.22
+Ubap2l_ev1    31 tttgctga  38 + 5.86
+Ubap2l_ev2   213 tttttaaa 220 + 9.85
+Map3k7_ev1     6 tttgtata  13 + 7.20
+Cep85_ev1     72 tttttaga  79 + 9.17
+Hnrnpr_ev1   122 actgtaga 129 + 8.29
+Hnrnpr_ev2   104 actgtaga 111 + 8.29
+Usp48_ev1     28 tttggaaa  35 + 6.30
+Vps13d_ev1   120 tttttata 127 + 7.82
+Vps13d_ev2    20 tctgttca  27 + 4.14
+Vps13d_ev3    20 tctgttca  27 + 4.14
+Nsd2_ev1      46 cttttaaa  53 + 9.13
+Nsd2_ev2      46 cttttaaa  53 + 9.13
+Sec31a_ev1   246 tttgtaaa 253 + 9.24
+Sec31a_ev2   246 tttgtaaa 253 + 9.24
+Cdc7_ev1      31 tttttata  38 + 7.82
+Uba3_ev1      26 tctgtagg  33 + 5.49
+Ift122_ev1   100 cttttaaa 107 + 9.13
+Fgfr1op2_ev1  53 attttaca  60 + 8.57
+Fgfr1op2_ev2  53 attttaca  60 + 8.57
+Fgfr1op2_ev3  53 attttaca  60 + 8.57
+Arhgef1_ev1  597 acttcaaa 604 + 8.94
+Zfp260_ev1    34 tttgtaga  41 + 8.55
+Smg1_ev1       9 gtttttaa  16 + 5.89
+Arhgef18_ev1  72 ctttctga  79 + 5.75
+Kdm6a_ev1     32 acttctga  39 + 6.21
+5530601H04Ri  51 tctttata  58 + 6.80
+
+                 attttaaa
+                 tc gctgg
+
+ a  c  g  t Del Ins Score
+35 13  6 21   0      8.41
+                  0 -0.141
+ 0 25  0 50   0      71.5
+                  0 -0.141
+ 0  0  0 75   0      141.
+                  0 -0.141
+ 0  7 27 41   0      40.8
+                  0 -0.141
+ 0 27  6 42   0      43.5
+                  0 -0.141
+60  0  0 15   0      86.3
+                  0 -0.141
+35  9 22  9   0      7.72
+                  0 -0.141
+60  0 15  0   0      86.3
+
+Score: 471.165  Columns: 9  Sequences: 75
+
+                 *********
+HNRNPR_ev1   159 atttcagac 167 + 8.41
+HNRNPR_ev2   156 atttcagac 164 + 8.41
+YIPF1_ev1    150 tttcaaacc 158 + 8.16
+ZRANB2_ev1     9 ttggtgaaa  17 + 5.40
+ZRANB2_ev2     5 ttggtgaaa  13 + 5.40
+SELENOF_ev1   38 actgcaaat  46 + 5.72
+UBAP2L_ev1   112 tttcagaaa 120 + 7.71
+UBAP2L_ev2    10 tttgcagat  18 + 8.37
+EPC1_ev1      60 attctgtac  68 + 5.45
+SIRT1_ev1     12 attgaagca  20 + 6.84
+PPP3CB_ev1    15 attgaggct  23 + 5.20
+UROS_ev1     165 tttaaagat 173 + 6.53
+FGFR1OP2_ev1  98 ttggaagca 106 + 5.39
+SPATS2_ev1   106 atgtcagca 114 + 5.01
+PPP1R12A_ev1 105 tttccagca 113 + 6.83
+LUC7L_ev1     43 ttgcagaaa  51 + 5.67
+TMEM219_ev1   54 ttttaagac  62 + 9.61
+SMPD4_ev1     41 tctacagcc  49 + 1.62
+BAZ2B_ev1     13 attcagaat  21 + 7.29
+ORMDL1_ev1   132 ttttaaaaa 140 + 10.3
+GNAS_ev1      55 attcaaaac  63 + 8.92
+NSD2_ev1      69 atgtaatat  77 + 6.47
+NSD2_ev2     216 ttttaagac 224 + 9.61
+SEC31A_ev1    81 acttcaaac  89 + 6.36
+SEC31A_ev2    81 acttcaaac  89 + 6.36
+NQO2_ev1     145 atttcatac 153 + 7.74
+MAP3K7_ev1    51 attctggat  59 + 6.30
+SPTLC1_ev1    56 actctaaat  64 + 6.05
+SPTLC1_ev2    80 atttcaaat  88 + 9.31
+TRMO_ev1      39 atgtcaact  47 + 5.91
+KDM6A_ev1      4 atgtaaacc  12 + 6.34
+SH3BGRL_ev1  145 ttgtaagaa 153 + 7.56
+Sirt1_ev1     55 attttgtat  63 + 6.44
+Ppp1r12a_ev1  36 tttgtatat  44 + 8.02
+Smc6_ev1      74 tttcaagaa  82 + 8.79
+Togaram1_ev1  88 ttgttaaac  96 + 8.02
+Ptgr2_ev1     87 ttttagaat  95 + 8.70
+Cinp_ev1       8 tttaaatac  16 + 5.68
+Gpbp1_ev1     11 tctataacc  19 + 2.68
+Ppp3cb_ev1    21 attgagcac  29 + 3.23
+Slx4_ev1      33 tctccagct  41 + 4.23
+Cd47_ev1       2 attttagat  10 + 8.92
+Usp16_ev1    151 tttttatca 159 + 7.30
+Luc7l_ev1     56 ttttcaaac  64 + 9.74
+Epc1_ev1      20 ttgcaaaaa  28 + 7.47
+Riok3_ev1     67 attgcatct  75 + 5.74
+Ppp6r3_ev1    82 ttgctgtct  90 + 2.81
+Baz2b_ev1    218 ttttagaaa 226 + 8.53
+Gnas_ev1       8 acttcagct  16 + 4.45
+Ubap2l_ev1    13 tttttgtcc  21 + 5.50
+Ubap2l_ev2   214 ttttaaaaa 222 + 10.3
+Map3k7_ev1     6 tttgtataa  14 + 7.85
+Cep85_ev1     72 tttttagaa  80 + 9.34
+Hnrnpr_ev1   102 tttgaagaa 110 + 8.79
+Hnrnpr_ev2    84 tttgaagaa  92 + 8.79
+Usp48_ev1     12 ttggcaaaa  20 + 6.87
+Vps13d_ev1   120 tttttatat 128 + 8.84
+Vps13d_ev2    27 actgcaacc  35 + 4.19
+Vps13d_ev3    27 actgcaacc  35 + 4.19
+Nsd2_ev1      47 ttttaaaaa  55 + 10.3
+Nsd2_ev2      47 ttttaaaaa  55 + 10.3
+Sec31a_ev1    56 tttctaaac  64 + 9.25
+Sec31a_ev2    56 tttctaaac  64 + 9.25
+Cdc7_ev1      11 tttcaaaat  19 + 9.69
+Uba3_ev1      20 attgcatct  28 + 5.74
+Ift122_ev1   101 ttttaaaat 109 + 10.5
+Fgfr1op2_ev1  53 attttacaa  61 + 5.59
+Fgfr1op2_ev2  53 attttacaa  61 + 5.59
+Fgfr1op2_ev3 186 ttggaaaat 194 + 7.65
+Arhgef1_ev1  274 tttctaaat 282 + 9.42
+Zfp260_ev1   109 atgctggac 117 + 4.08
+Smg1_ev1      10 tttttaatt  18 + 3.21
+Arhgef18_ev1  73 tttctgacc  81 + 6.08
+Kdm6a_ev1      2 ttttaatct  10 + 7.75
+5530601H04Ri  12 attgtgaat  20 + 7.02
+
+                 ttttaaaat
+                 a gctggca
+                    gc   c
+
+ a  c  g  t Del Ins Score
+30  0  0 45   0      67.6
+                  0 -0.141
+ 0 10  0 65   0      98.0
+                  0 -0.141
+ 0  0 15 60   0      86.3
+                  0 -0.141
+ 4 19 19 33   0      8.94
+                  0 -0.141
+30 20  0 25   0      22.8
+                  0 -0.141
+58  0 17  0   0      82.5
+                  0 -0.141
+36  3 22 14   0      15.4
+                  0 -0.141
+53 21  0  1   0      69.2
+                  0 -0.141
+24 24  0 27   0      21.5
+
+Score: 462.691  Columns: 8  Sequences: 75
+
+                 ********
+HNRNPR_ev1   147 acttgatg 154 + 7.99
+HNRNPR_ev2   144 acttgatg 151 + 7.99
+YIPF1_ev1    145 acctcttt 152 + 7.74
+ZRANB2_ev1    62 actacttt  69 + 5.37
+ZRANB2_ev2    58 actacttt  65 + 5.37
+SELENOF_ev1   43 aaatcaag  50 + 6.40
+UBAP2L_ev1   262 atttcaag 269 + 8.84
+UBAP2L_ev2    21 ttctctgt  28 + 4.64
+EPC1_ev1      55 acatcatt  62 + 8.08
+SIRT1_ev1     75 aactctat  82 + 6.50
+PPP3CB_ev1    14 tattgagg  21 + 3.47
+UROS_ev1     131 atctcatg 138 + 8.78
+FGFR1OP2_ev1 108 atcagaat 115 + 4.64
+SPATS2_ev1    66 ttctcaag  73 + 5.51
+PPP1R12A_ev1  27 atttgatt  34 + 9.34
+LUC7L_ev1     24 acatcaat  31 + 7.34
+TMEM219_ev1   31 acttcttt  38 + 8.54
+SMPD4_ev1     20 gactcagt  27 + 1.67
+BAZ2B_ev1    102 acttcaat 109 + 8.36
+ORMDL1_ev1   160 ttttgatt 167 + 6.80
+GNAS_ev1     143 aaatcatt 150 + 7.57
+NSD2_ev1       3 ttttgtgg  10 + 4.32
+NSD2_ev2     125 atttctat 132 + 8.71
+SEC31A_ev1   195 acttcttt 202 + 8.54
+SEC31A_ev2   195 acttcttt 202 + 8.54
+NQO2_ev1      43 atatgatg  50 + 7.88
+MAP3K7_ev1    75 atatcagg  82 + 7.07
+SPTLC1_ev1   136 ttcacagg 143 + 1.60
+SPTLC1_ev2    64 atttgatg  71 + 8.90
+TRMO_ev1      19 atatcatg  26 + 8.56
+KDM6A_ev1     84 acatgatt  91 + 7.40
+SH3BGRL_ev1  103 tcatcaat 110 + 4.80
+Sirt1_ev1    117 acctcagg 124 + 6.39
+Ppp1r12a_ev1  14 aaatcatt  21 + 7.57
+Smc6_ev1      73 atttcaag  80 + 8.84
+Togaram1_ev1   8 atttcatg  15 + 9.58
+Ptgr2_ev1      3 aattcttg  10 + 7.60
+Cinp_ev1      15 acttcagg  22 + 7.19
+Gpbp1_ev1     51 atctgtat  58 + 7.24
+Ppp3cb_ev1    15 accagtat  22 + 3.16
+Slx4_ev1     126 atttctgg 133 + 7.54
+Cd47_ev1       4 tttagatg  11 + 3.20
+Usp16_ev1      8 acctgttg  15 + 6.63
+Luc7l_ev1     11 acttcttt  18 + 8.54
+Epc1_ev1      74 aaaagaag  81 + 2.56
+Riok3_ev1     76 atttgatt  83 + 9.34
+Ppp6r3_ev1    11 atatgtat  18 + 7.01
+Baz2b_ev1    260 aattgagt 267 + 6.44
+Gnas_ev1     116 gcttcaag 123 + 3.27
+Ubap2l_ev1    39 gaatgatg  46 + 1.81
+Ubap2l_ev2   276 atatgagt 283 + 6.83
+Map3k7_ev1    33 atttcctg  40 + 2.82
+Cep85_ev1     42 atctgtag  49 + 6.81
+Hnrnpr_ev1   157 atttgaat 164 + 8.60
+Hnrnpr_ev2   139 atttgaat 146 + 8.60
+Usp48_ev1     20 aaaagatg  27 + 3.30
+Vps13d_ev1    17 atctctgt  24 + 7.18
+Vps13d_ev2    17 atctctgt  24 + 7.18
+Vps13d_ev3    17 atctctgt  24 + 7.18
+Nsd2_ev1      16 atatcttt  23 + 8.43
+Nsd2_ev2      16 atatcttt  23 + 8.43
+Sec31a_ev1   326 atttcttt 333 + 9.45
+Sec31a_ev2   267 aattcatt 274 + 8.60
+Cdc7_ev1      18 atatgttt  25 + 7.75
+Uba3_ev1      25 atctgtag  32 + 6.81
+Ift122_ev1    34 aattcatt  41 + 8.60
+Fgfr1op2_ev1  17 aactcatt  24 + 7.80
+Fgfr1op2_ev2  17 aactcatt  24 + 7.80
+Fgfr1op2_ev3 293 atttgaag 300 + 8.16
+Arhgef1_ev1  731 atttcaag 738 + 8.84
+Zfp260_ev1    70 ttttcaag  77 + 6.30
+Smg1_ev1       5 tcctgttt  12 + 4.53
+Arhgef18_ev1  35 ttctcttt  42 + 6.12
+Kdm6a_ev1     90 acttgttt  97 + 7.86
+5530601H04Ri 120 atttctag 127 + 8.28
+
+                 atttcatt
+                  cc gtag
+                  aa     
+
+ a  c  g  t Del Ins Score
+61  0  3 11   0      77.9
+                  0 -0.141
+15 21  0 39   0      30.1
+                  0 -0.141
+18 21  0 36   0      26.5
+                  0 -0.141
+ 8  0  0 67   0      104.
+                  0 -0.141
+ 0 46 29  0   0      68.2
+                  0 -0.141
+44  1  0 30   0      60.8
+                  0 -0.141
+23  0 14 38   0      29.9
+                  0 -0.141
+ 0  0 32 43   0      66.6
+
+Score: 455.875  Columns: 9  Sequences: 77
+
+                 *******..**
+HNRNPR_ev1   140 cag.aaa..ga 147 + 8.69
+HNRNPR_ev2   137 cag.aaa..ga 144 + 8.69
+YIPF1_ev1     34 cagcaga..ga  42 + 7.80
+ZRANB2_ev1    19 cactaaa..ca  27 + 10.3
+ZRANB2_ev2    15 cactaaa..ca  23 + 10.3
+SELENOF_ev1   39 ctgcaaat.ca  48 + 4.75
+UBAP2L_ev1   115 cag.aaac.ca 123 + 7.72
+UBAP2L_ev2    32 cag.cgc..ca  39 + 1.55
+EPC1_ev1      68 cagtaaat.ca  77 + 8.96
+SIRT1_ev1     61 cagcatt..ca  69 + 9.22
+PPP3CB_ev1     2 cac.agtt.ga  10 + 3.13
+UROS_ev1     187 cag.aga..ca 194 + 7.61
+FGFR1OP2_ev1 102 aagcaaat.ca 111 + 6.99
+SPATS2_ev1     9 cactagt..ga  17 + 6.60
+PPP1R12A_ev1 159 cac.aaag.ca 167 + 6.80
+LUC7L_ev1     46 cag.aaagcct  55 + 4.28
+TMEM219_ev1    3 cag.aat..ca  10 + 9.85
+SMPD4_ev1     60 cagcctc..ca  68 + 3.26
+BAZ2B_ev1     16 cag.aat..ca  23 + 9.85
+ORMDL1_ev1    43 aagtaaa..ca  51 + 9.01
+GNAS_ev1      82 aaccaaa..ca  90 + 8.30
+GNAS_ev2      35 caacagc..ga  43 + 4.54
+NSD2_ev1      18 caccagt..ca  26 + 8.06
+NSD2_ev2     133 cac.aat..ca 140 + 8.94
+SEC31A_ev1    43 cagcaat..gt  51 + 8.89
+SEC31A_ev2    43 cagcaat..gt  51 + 8.89
+GPBP1_ev1     36 aaa.aat..ct  43 + 5.29
+NQO2_ev1     213 cag.aaa..ca 220 + 9.94
+MAP3K7_ev1    47 caacatt..ct  55 + 6.83
+SPTLC1_ev1    67 caa.aat..ca  74 + 8.62
+SPTLC1_ev2    84 caa.ata..ca  91 + 6.63
+TRMO_ev1      16 cag.atat.ca  24 + 5.64
+KDM6A_ev1     65 cagcaatc.ct  74 + 7.92
+SH3BGRL_ev1   38 caccaat..ca  46 + 10.4
+Sirt1_ev1     33 cacccac..ca  41 + 4.42
+Ppp1r12a_ev1 140 cagtaat..ga 148 + 9.84
+Smc6_ev1      96 aaacaaa..ct 104 + 6.83
+Togaram1_ev1  48 cag.aga..gt  55 + 5.19
+Ptgr2_ev1     68 cag.aat..ga  75 + 8.60
+Cinp_ev1      39 aaataaag.ca  48 + 5.56
+Gpbp1_ev1     33 cac.aatg.ca  41 + 6.72
+Ppp3cb_ev1    17 cagtatt..ga  25 + 7.76
+Slx4_ev1     170 cagcatc..ct 178 + 6.11
+Cd47_ev1      38 cag.ata..ga  45 + 6.61
+Usp16_ev1    165 caataat..gt 173 + 7.45
+Luc7l_ev1      6 cag.aaa..ct  13 + 8.78
+Epc1_ev1      97 aag.aaa..ga 104 + 6.51
+Riok3_ev1      1 tagtatt..ct   9 + 0.614
+Ppp6r3_ev1    41 caa.agtacca  50 + 1.79
+Baz2b_ev1     53 caccaaatgca  63 + 5.98
+Gnas_ev1      87 caccagc..ca  95 + 6.11
+Ubap2l_ev1    37 gag.aat..ga  44 + 1.36
+Ubap2l_ev2   185 aag.aaa..ct 192 + 6.60
+Map3k7_ev1    29 caccatttcct  39 + 2.65
+Cep85_ev1      5 aaa.aatg.gt  13 + 1.81
+Hnrnpr_ev1   148 aaataaa..ca 156 + 7.78
+Hnrnpr_ev2   130 aaataaa..ca 138 + 7.78
+Usp48_ev1     18 aaa.aaa..ga  25 + 5.29
+Vps13d_ev1    28 ctgcaac..ct  36 + 3.78
+Vps13d_ev2    28 ctgcaac..ct  36 + 3.78
+Vps13d_ev3    28 ctgcaac..ct  36 + 3.78
+Nsd2_ev1      27 aaatata..ga  35 + 4.45
+Nsd2_ev2     214 aaa.aaa..ct 221 + 5.38
+Sec31a_ev1   207 cagtaatt.ct 216 + 7.71
+Sec31a_ev2   207 cagtaatt.ct 216 + 7.71
+Cdc7_ev1     147 cac.ata..ca 154 + 6.95
+Uba3_ev1      36 cag.caa..ct  43 + 4.76
+Ift122_ev1   189 cac.aat..ca 196 + 8.94
+Fgfr1op2_ev1   6 cactaat..ga  14 + 8.93
+Fgfr1op2_ev2   6 cactaat..ga  14 + 8.93
+Fgfr1op2_ev3   6 cactaat..ga  14 + 8.93
+Arhgef1_ev1  130 cactaat..ca 138 + 10.2
+Zfp260_ev1    63 cac.att..ct  70 + 5.70
+Smg1_ev1      35 cag.agt..ca  42 + 7.52
+Arhgef18_ev1 108 cag.caa..ga 115 + 4.67
+Kdm6a_ev1     55 caacaaag.ct  64 + 6.78
+5530601H04Ri  28 caataaa..ca  36 + 9.95
+
+                 cagcaaa  ca
+                   ct  t  gt
+                   a        
+
+ a  c  g  t Del Ins Score
+14 61  1  1   0      77.2
+                  0 -0.142
+73  0  0  4   0      122.
+                  0 -0.142
+17 21 39  0   0      29.5
+                  0 -0.142
+ 0 23  0 20  34     -46.9
+                  0 -0.142
+72  5  0  0   0      118.
+                  0 -0.142
+53  0 11 13   0      51.5
+                  0 -0.142
+35  9  0 33   0      36.2
+                 22 -82.4
+ 0 54 23  0   0      76.6
+                  0 -0.142
+53  0  0 24   0      75.4
+
+Score: 432.451  Columns: 6  Sequences: 77
+
+                 ******
+HNRNPR_ev1     7 aataaa  12 + 6.53
+HNRNPR_ev2     4 aataaa   9 + 6.53
+YIPF1_ev1     58 aatcaa  63 + 8.18
+ZRANB2_ev1    23 aaacaa  28 + 8.49
+ZRANB2_ev2    19 aaacaa  24 + 8.49
+SELENOF_ev1   44 aatcaa  49 + 8.18
+UBAP2L_ev1   118 aaacca 123 + 6.95
+UBAP2L_ev2     3 ta.cca   7 + 2.69
+EPC1_ev1      82 aaacaa  87 + 8.49
+SIRT1_ev1    116 aaacaa 121 + 8.49
+PPP3CB_ev1    23 tgaaaa  28 + 5.20
+UROS_ev1     359 agtcca 364 + 5.56
+FGFR1OP2_ev1  19 taacaa  24 + 7.91
+SPATS2_ev1    93 tgacca  98 + 5.30
+PPP1R12A_ev1  17 agacaa  22 + 7.42
+LUC7L_ev1     33 tg.caa  37 + 3.16
+TMEM219_ev1   93 taacaa  98 + 7.91
+SMPD4_ev1     82 ta.cca  86 + 2.69
+BAZ2B_ev1    121 aaacaa 126 + 8.49
+ORMDL1_ev1   227 aaacaa 232 + 8.49
+GNAS_ev1      86 aaacaa  91 + 8.49
+GNAS_ev2      33 ag.caa  37 + 3.74
+NSD2_ev1      22 agtcaa  27 + 7.10
+NSD2_ev2     209 taacaa 214 + 7.91
+SEC31A_ev1     3 tatcaa   8 + 7.60
+SEC31A_ev2     3 tatcaa   8 + 7.60
+GPBP1_ev1     35 aaaaaa  40 + 6.85
+NQO2_ev1     154 aaacaa 159 + 8.49
+MAP3K7_ev1    29 ta.aaa  33 + 2.59
+SPTLC1_ev1    97 aaaaaa 102 + 6.85
+SPTLC1_ev2    86 aataca  91 + 4.99
+TRMO_ev1      40 tgtcaa  45 + 6.52
+KDM6A_ev1     47 agtcaa  52 + 7.10
+SH3BGRL_ev1  112 taacaa 117 + 7.91
+Sirt1_ev1     73 agacca  78 + 5.88
+Ppp1r12a_ev1 111 aataaa 116 + 6.53
+Smc6_ev1      96 aaacaa 101 + 8.49
+Togaram1_ev1  58 tatcaa  63 + 7.60
+Ptgr2_ev1     64 tgtcca  69 + 4.98
+Cinp_ev1      40 aataaa  45 + 6.53
+Gpbp1_ev1     15 taacct  20 + 1.96
+Ppp3cb_ev1    14 ta.cca  18 + 2.69
+Slx4_ev1       2 tgtcca   7 + 4.98
+Cd47_ev1      32 tataaa  37 + 5.96
+Usp16_ev1    155 tatcaa 160 + 7.60
+Luc7l_ev1      7 ag.aaa  11 + 2.09
+Epc1_ev1      24 aaaaaa  29 + 6.85
+Riok3_ev1     56 tgtcat  61 + 2.11
+Ppp6r3_ev1    46 ta.cca  50 + 2.69
+Baz2b_ev1     27 agtcaa  32 + 7.10
+Gnas_ev1      91 ag.cca  95 + 2.20
+Ubap2l_ev1    17 tgtcct  22 + 0.570
+Ubap2l_ev2   292 aaaaaa 297 + 6.85
+Map3k7_ev1    19 aatcca  24 + 6.64
+Cep85_ev1      4 aaaaaa   9 + 6.85
+Hnrnpr_ev1    40 taacaa  45 + 7.91
+Hnrnpr_ev2   134 aaacaa 139 + 8.49
+Usp48_ev1     17 aaaaaa  22 + 6.85
+Vps13d_ev1   138 agacaa 143 + 7.42
+Vps13d_ev2    29 tg.caa  33 + 3.16
+Vps13d_ev3    29 tg.caa  33 + 3.16
+Nsd2_ev1      50 taaaaa  55 + 6.27
+Nsd2_ev2     184 aaaaaa 189 + 6.85
+Sec31a_ev1   167 aaacaa 172 + 8.49
+Sec31a_ev2   167 aaacaa 172 + 8.49
+Cdc7_ev1      96 tataaa 101 + 5.96
+Uba3_ev1      37 ag.caa  41 + 3.74
+Ift122_ev1     7 aatcca  12 + 6.64
+Fgfr1op2_ev1  84 aatcca  89 + 6.64
+Fgfr1op2_ev2  84 aatcca  89 + 6.64
+Fgfr1op2_ev3 288 agacaa 293 + 7.42
+Arhgef1_ev1  119 taacaa 124 + 7.91
+Zfp260_ev1   122 aaacaa 127 + 8.49
+Smg1_ev1      38 agtcat  43 + 2.69
+Arhgef18_ev1  77 tgacca  82 + 5.30
+Kdm6a_ev1     64 tgtcca  69 + 4.98
+5530601H04Ri  29 aataaa  34 + 6.53
+
+                 aaacaa
+                 tgtac 
+
+ a  c  g  t Del Ins Score
+46  0  0 31   0      69.5
+                  0 -0.142
+52  0 25  0   0      74.3
+                  0 -0.142
+36  0  0 29  12      4.42
+                  0 -0.142
+19 58  0  0   0      82.3
+                  0 -0.142
+57 20  0  0   0      80.7
+                  0 -0.142
+73  0  0  4   0      122.
+
+Score: 209.835  Columns: 8  Sequences: 76
+
+                 ********
+HNRNPR_ev1   144 aagacttg 151 + 6.74
+HNRNPR_ev2   155 .t.atttc 160 + -0.339
+YIPF1_ev1    122 ctttgttc 129 + 4.73
+ZRANB2_ev1    63 ct.acttt  69 + 2.85
+ZRANB2_ev2     4 at.tggtg  10 + 0.0847
+SELENOF_ev1   25 aactgttc  32 + 3.76
+UBAP2L_ev1   305 cacacctg 312 + 4.17
+UBAP2L_ev2     6 catatttg  13 + 8.31
+EPC1_ev1      59 ca.ttctg  65 + 4.94
+SIRT1_ev1    120 aa.ttttg 126 + 6.19
+PPP3CB_ev1     2 cacagttg   9 + 5.35
+UROS_ev1     325 ac.ttctg 331 + -2.32
+FGFR1OP2_ev1  78 atggactg  85 + 1.78
+SPATS2_ev1    97 cacacttg 104 + 5.68
+PPP1R12A_ev1  72 .ttacctc  78 + -0.972
+LUC7L_ev1     56 ca.tgttc  62 + 4.48
+TMEM219_ev1   85 catttggg  92 + -0.228
+SMPD4_ev1     24 ca.gtgtc  30 + 0.965
+BAZ2B_ev1    250 .t.tcttg 255 + -0.352
+ORMDL1_ev1   149 aaaac.tg 155 + -1.74
+GNAS_ev1     195 ca.atttc 201 + 5.81
+GNAS_ev2      21 ca.ggctg  27 + 3.33
+NSD2_ev1      25 ca.agttg  31 + 5.81
+NSD2_ev2      84 .a.tgctg  89 + -0.926
+SEC31A_ev1   110 catatctt 117 + 4.78
+SEC31A_ev2   196 ct.tcttt 202 + 2.50
+GPBP1_ev1     37 aaaatctc  44 + 2.41
+NQO2_ev1     160 catgattt 167 + 3.45
+MAP3K7_ev1    40 ca.tttgg  46 + 2.11
+SPTLC1_ev1   146 cagagctg 153 + 5.15
+SPTLC1_ev2    61 aatatttg  68 + 8.06
+TRMO_ev1      31 cagtgctg  38 + 4.80
+KDM6A_ev1     85 catgattc  92 + 4.49
+SH3BGRL_ev1   97 aaagcttc 104 + 2.29
+Sirt1_ev1     87 ca.tgttg  93 + 5.46
+Ppp1r12a_ev1  22 cttatttg  29 + 7.05
+Smc6_ev1      70 aagatttc  77 + 6.40
+Togaram1_ev1  70 aggttttg  77 + 0.0304
+Ptgr2_ev1     82 cttagttt  89 + 4.04
+Cinp_ev1      12 aatacttc  19 + 6.43
+Gpbp1_ev1     48 cttatctg  55 + 5.55
+Ppp3cb_ev1    17 cagtattg  24 + 5.43
+Slx4_ev1     123 ctgatttc 130 + 5.39
+Cd47_ev1      48 aa.gatgg  54 + -0.626
+Usp16_ev1    100 ctctcgtt 107 + -1.82
+Luc7l_ev1     40 cagagttg  47 + 6.66
+Epc1_ev1     105 aa.gattc 111 + 2.72
+Riok3_ev1     59 ca.ttttt  65 + 4.42
+Ppp6r3_ev1    61 cagag.tg  67 + 0.656
+Baz2b_ev1      2 aagatttg   9 + 7.39
+Gnas_ev1      90 ca.gccag  96 + -1.17
+Ubap2l_ev1    44 atggtttc  51 + 4.15
+Ubap2l_ev2    50 aa.atttg  56 + 6.54
+Map3k7_ev1    65 attta.tt  71 + -3.44
+Cep85_ev1      8 aatgg.tg  14 + 0.0970
+Hnrnpr_ev1    67 ctttcttt  74 + 4.02
+Hnrnpr_ev2   137 ca.atttg 143 + 6.79
+Usp48_ev1     25 at.gtttg  31 + 4.30
+Vps13d_ev1   118 aa.ttttt 124 + 4.16
+Vps13d_ev2    31 ca.acctc  37 + 3.65
+Vps13d_ev3    31 ca.acctc  37 + 3.65
+Nsd2_ev1      87 aagaattg  94 + 5.53
+Nsd2_ev2      54 aatattag  61 + 3.23
+Sec31a_ev1   326 atttcttt 333 + 3.77
+Sec31a_ev2   141 ca.ttttc 147 + 5.46
+Cdc7_ev1       7 catgtttc  14 + 6.35
+Uba3_ev1      18 .acattgc  24 + -3.87
+Ift122_ev1    90 ct.ttttc  96 + 4.19
+Fgfr1op2_ev1  61 at.gtttg  67 + 4.30
+Fgfr1op2_ev2  60 aatgtttg  67 + 7.08
+Fgfr1op2_ev3  22 attacctg  29 + 4.64
+Arhgef1_ev1   10 aa.tattc  16 + 3.35
+Smg1_ev1       2 atgtcctg   9 + 3.62
+Arhgef18_ev1 129 .atgccag 135 + -4.54
+Kdm6a_ev1     88 aa.acttg  94 + 5.89
+5530601H04Ri 165 aatggttg 172 + 6.10
+
+                 catatttg
+                 atgtcc c
+                    gg   
+
+ a  c  g  t Del Ins Score
+32 38  0  0   6      27.5
+                  0 -0.141
+52  1  1 22   0      62.3
+                  0 -0.141
+ 3  6 14 22  31     -73.3
+                  0 -0.141
+33  0 17 26   0      25.5
+                  0 -0.141
+ 9 20 16 31   0     -0.181
+                  0 -0.141
+ 0 18  4 50   4      30.1
+                  0 -0.141
+ 3  0  4 69   0      102.
+                  0 -0.141
+ 0 22 43 11   0      36.9
+
+Score: 196.098  Columns: 8  Sequences: 77
+
+                 ********
+HNRNPR_ev1    29 atggtaat  36 + 2.17
+HNRNPR_ev2   140 aaagactt 147 + 5.19
+YIPF1_ev1    112 gctgaact 119 + 2.66
+ZRANB2_ev1    23 aaacaacc  30 + -2.47
+ZRANB2_ev2    27 ct.gagcc  33 + -4.00
+SELENOF_ev1    1 cttttgtt   8 + 3.37
+UBAP2L_ev1   197 ctgggctt 204 + 4.91
+UBAP2L_ev2    20 at.tctct  26 + -1.37
+EPC1_ev1     102 actggatt 109 + 7.03
+SIRT1_ev1     16 aa.gcatt  22 + 1.33
+PPP3CB_ev1     1 ccacagtt   8 + 0.623
+UROS_ev1     102 aaaggctt 109 + 5.48
+FGFR1OP2_ev1   2 attgacat   9 + 4.14
+SPATS2_ev1   136 acagcatt 143 + 5.27
+PPP1R12A_ev1  27 atttgatt  34 + 7.23
+LUC7L_ev1     12 ctttgcct  19 + 3.85
+TMEM219_ev1   31 acttcttt  38 + 3.56
+SMPD4_ev1     75 ccacgcct  82 + 0.651
+BAZ2B_ev1    272 acttactt 279 + 5.62
+ORMDL1_ev1   165 atttgact 172 + 4.62
+GNAS_ev1     173 gcatacat 180 + 1.33
+GNAS_ev2      20 gcaggctg  27 + 1.45
+NSD2_ev1      28 gttggatt  35 + 6.32
+NSD2_ev2     173 ctggtatt 180 + 4.74
+SEC31A_ev1   105 ccttacat 112 + 2.65
+SEC31A_ev2    86 aaacgctt  93 + 2.54
+GPBP1_ev1     12 ccagacac  19 + 0.453
+NQO2_ev1     159 acatgatt 166 + 6.43
+MAP3K7_ev1    36 gcttcatt  43 + 3.32
+SPTLC1_ev1   140 ca.ggatc 146 + 0.156
+SPTLC1_ev2    92 gt.gaatt  98 + 2.95
+TRMO_ev1      19 atatcatg  26 + 1.99
+KDM6A_ev1     22 aaatactg  29 + 1.16
+SH3BGRL_ev1    8 gatggatc  15 + 1.96
+Sirt1_ev1     76 ccaggttt  83 + 5.56
+Ppp1r12a_ev1  20 ttcttatt  27 + -2.44
+Smc6_ev1      16 ctttactc  23 + 3.49
+Togaram1_ev1  69 ca.ggttt  75 + 1.63
+Ptgr2_ev1      7 cttgtttt  14 + 5.63
+Cinp_ev1      11 aaatactt  18 + 4.65
+Gpbp1_ev1     53 ct.gtatt  59 + 3.77
+Ppp3cb_ev1    16 ccagtatt  23 + 6.04
+Slx4_ev1      70 catggctt  77 + 5.34
+Cd47_ev1      50 gatggcat  57 + 1.30
+Usp16_ev1    147 ctggtttt 154 + 3.53
+Luc7l_ev1     39 acagagtt  46 + 3.76
+Epc1_ev1      14 attgactt  21 + 6.91
+Riok3_ev1      3 gtattctc  10 + 1.72
+Ppp6r3_ev1     1 atatatat   8 + 2.90
+Baz2b_ev1    156 ccattcct 163 + 2.31
+Gnas_ev1      22 ac.gcact  28 + -0.363
+Ubap2l_ev1     7 tttggttt  14 + 3.73
+Ubap2l_ev2   282 gtatattt 289 + 4.21
+Map3k7_ev1    69 at.ttatt  75 + 3.42
+Cep85_ev1     37 at.tgaat  43 + 1.39
+Hnrnpr_ev1   158 tttgaatt 165 + 4.65
+Hnrnpr_ev2    40 attgagtt  47 + 4.56
+Usp48_ev1      7 ac.gtttt  13 + 2.00
+Vps13d_ev1    84 ctgggatt  91 + 5.48
+Vps13d_ev2    84 ctgggatt  91 + 5.48
+Vps13d_ev3    84 ctgggatt  91 + 5.48
+Nsd2_ev1      65 atagtatt  72 + 6.98
+Nsd2_ev2      65 atagtatt  72 + 6.98
+Sec31a_ev1     2 cttgcttt   9 + 4.66
+Sec31a_ev2    13 gttgtctc  20 + 2.32
+Cdc7_ev1      18 atatgttt  25 + 5.97
+Uba3_ev1      14 ctagacat  21 + 3.89
+Ift122_ev1    88 tc.ctttt  94 + -3.78
+Fgfr1op2_ev1  26 cc.tgttg  32 + -1.48
+Fgfr1op2_ev2   2 cctgcact   9 + 2.51
+Fgfr1op2_ev3 114 gttttatc 121 + 2.35
+Arhgef1_ev1  250 ctatgatg 257 + 3.50
+Zfp260_ev1   138 at.tgatc 144 + 1.48
+Smg1_ev1      11 ttttaatt  18 + 4.11
+Arhgef18_ev1   7 aatggatt  14 + 6.11
+Kdm6a_ev1     90 acttgttt  97 + 5.27
+5530601H04Ri 149 ccacactg 156 + -0.513
+
+                 attggatt
+                 ccatac  
+                     t   
+
+ a  c  g  t Del Ins Score
+32 28 12  5   0      10.9
+                  0 -0.142
+13 24  0 40   0      32.7
+                  0 -0.142
+27  1  7 28  14     -33.7
+                  0 -0.142
+ 0  6 42 29   0      44.6
+                  0 -0.142
+23  9 28 17   0     -1.80
+                  0 -0.142
+34 23  5 15   0      8.83
+                  0 -0.142
+ 9 10  0 58   0      63.3
+                  0 -0.142
+ 0 10  6 61   0      72.3
+

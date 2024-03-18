@@ -1,0 +1,72 @@
+Doing GO analysis for 4458 alternatively spliced (all) genes from the HEK293T dataset - no coverage filter
+Found 191 terms enrinched.
+Doing GO analysis for 3536 alternatively spliced (all) genes from the HEK293T dataset - with coverage filter of 3 average reads
+Found 136 terms enrinched.
+Doing GO analysis for 3100 alternatively spliced (all) genes from the HEK293T dataset - with coverage filter of 5 average reads
+Found 118 terms enrinched.
+Doing GO analysis for 2562 alternatively spliced (all) genes from the HEK293T dataset - with coverage filter of 10 average reads
+Found 106 terms enrinched.
+Doing GO analysis for 2103 alternatively spliced (all) genes from the bjFibro dataset - no coverage filter
+Found 43 terms enrinched.
+Doing GO analysis for 1529 alternatively spliced (all) genes from the bjFibro dataset - with coverage filter of 3 average reads
+Found 21 terms enrinched.
+Doing GO analysis for 1281 alternatively spliced (all) genes from the bjFibro dataset - with coverage filter of 5 average reads
+Found 11 terms enrinched.
+Doing GO analysis for 1021 alternatively spliced (all) genes from the bjFibro dataset - with coverage filter of 10 average reads
+Found 8 terms enrinched.
+Doing GO analysis for 3547 alternatively spliced (all) genes from the hepg2 dataset - no coverage filter
+Found 119 terms enrinched.
+Doing GO analysis for 2751 alternatively spliced (all) genes from the hepg2 dataset - with coverage filter of 3 average reads
+Found 78 terms enrinched.
+Doing GO analysis for 2404 alternatively spliced (all) genes from the hepg2 dataset - with coverage filter of 5 average reads
+Found 52 terms enrinched.
+Doing GO analysis for 1932 alternatively spliced (all) genes from the hepg2 dataset - with coverage filter of 10 average reads
+Found 27 terms enrinched.
+Doing GO analysis for 4009 alternatively spliced (all) genes from the k562 dataset - no coverage filter
+Found 251 terms enrinched.
+Doing GO analysis for 3139 alternatively spliced (all) genes from the k562 dataset - with coverage filter of 3 average reads
+Found 208 terms enrinched.
+Doing GO analysis for 2773 alternatively spliced (all) genes from the k562 dataset - with coverage filter of 5 average reads
+Found 173 terms enrinched.
+Doing GO analysis for 2301 alternatively spliced (all) genes from the k562 dataset - with coverage filter of 10 average reads
+Found 154 terms enrinched.
+Doing GO analysis for 6385 alternatively spliced (all) genes from the kcytes dataset - no coverage filter
+Found 278 terms enrinched.
+Doing GO analysis for 5459 alternatively spliced (all) genes from the kcytes dataset - with coverage filter of 3 average reads
+Found 243 terms enrinched.
+Doing GO analysis for 4944 alternatively spliced (all) genes from the kcytes dataset - with coverage filter of 5 average reads
+Found 234 terms enrinched.
+Doing GO analysis for 4116 alternatively spliced (all) genes from the kcytes dataset - with coverage filter of 10 average reads
+Found 170 terms enrinched.
+Doing GO analysis for 1653 alternatively spliced (all) genes from the lncap dataset - no coverage filter
+Found 12 terms enrinched.
+Doing GO analysis for 1148 alternatively spliced (all) genes from the lncap dataset - with coverage filter of 3 average reads
+Found 3 terms enrinched.
+Doing GO analysis for 988 alternatively spliced (all) genes from the lncap dataset - with coverage filter of 5 average reads
+Found 1 terms enrinched.
+Doing GO analysis for 750 alternatively spliced (all) genes from the lncap dataset - with coverage filter of 10 average reads
+Found 1 terms enrinched.
+Doing GO analysis for 1229 alternatively spliced (all) genes from the thymocytes dataset - no coverage filter
+Found 96 terms enrinched.
+Doing GO analysis for 1060 alternatively spliced (all) genes from the thymocytes dataset - with coverage filter of 3 average reads
+Found 87 terms enrinched.
+Doing GO analysis for 985 alternatively spliced (all) genes from the thymocytes dataset - with coverage filter of 5 average reads
+Found 63 terms enrinched.
+Doing GO analysis for 848 alternatively spliced (all) genes from the thymocytes dataset - with coverage filter of 10 average reads
+Found 42 terms enrinched.
+Doing GO analysis for 2841 alternatively spliced (all) genes from the fetalLiv dataset - no coverage filter
+Found 234 terms enrinched.
+Doing GO analysis for 2645 alternatively spliced (all) genes from the fetalLiv dataset - with coverage filter of 3 average reads
+Found 208 terms enrinched.
+Doing GO analysis for 2487 alternatively spliced (all) genes from the fetalLiv dataset - with coverage filter of 5 average reads
+Found 205 terms enrinched.
+Doing GO analysis for 2167 alternatively spliced (all) genes from the fetalLiv dataset - with coverage filter of 10 average reads
+Found 180 terms enrinched.
+Doing GO analysis for 2836 alternatively spliced (all) genes from the actb_d1 dataset - no coverage filter
+Found 376 terms enrinched.
+Doing GO analysis for 2580 alternatively spliced (all) genes from the actb_d1 dataset - with coverage filter of 3 average reads
+Found 368 terms enrinched.
+Doing GO analysis for 2411 alternatively spliced (all) genes from the actb_d1 dataset - with coverage filter of 5 average reads
+Found 365 terms enrinched.
+Doing GO analysis for 2076 alternatively spliced (all) genes from the actb_d1 dataset - with coverage filter of 10 average reads
+Found 301 terms enrinched.

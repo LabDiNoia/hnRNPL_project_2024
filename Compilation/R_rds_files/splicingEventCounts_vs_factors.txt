@@ -1,0 +1,10 @@
+dataset	Description	mouse_or_human	stranded	SE_or_PE	read_length	mean_mapped_counts	total_ident_count	cov_filt0_count	cov_filt3_count	cov_filt5_count	cov_filt10_count	cov_filt0_gene_count	cov_filt3_gene_count	cov_filt5_gene_count	cov_filt10_gene_count
+HEK293T	293T	Human	No	PE	76	44061791.25	230647	8822	6649	5754	4664	4458	3536	3100	2562
+actb_d1	Activated B	Mouse	Yes	PE	150	72274756.8333333	156571	5801	5172	4746	3935	2836	2580	2411	2076
+bjFibro	BJ Fibroblast	Human	?	PE	50	21740145	95737	3369	2386	1998	1568	2103	1529	1281	1021
+fetalLiv	Fetal liver cells	Mouse	Yes	PE	50	74464748.5	134533	4882	4480	4185	3581	2841	2645	2487	2167
+hepg2	HepG2	Human	Yes	PE	100	29470568	186839	6992	5140	4385	3470	3547	2751	2404	1932
+k562	K562	Human	Yes	PE	100	39310519.75	243776	8995	6624	5692	4524	4009	3139	2773	2301
+kcytes	Primary keratinocytes	Human	No	PE	150	31825360.25	268331	17890	14190	12326	9731	6385	5459	4944	4116
+lncap	LNCaP	Human	Yes	PE	49	35178113.75	142446	2469	1720	1475	1143	1653	1148	988	750
+thymocytes	thymocytes	Mouse	No	SE	50	62043847.75	40593	1581	1350	1251	1065	1229	1060	985	848
