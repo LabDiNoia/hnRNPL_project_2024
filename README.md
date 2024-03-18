@@ -5,7 +5,7 @@ The RNA-seq datasets were processed using [this RNA-seq pipeline](https://github
 Only the scripts, config files and folder structure were uploaded to GitHub.  
 The SRA accession numbers of publicly available files downloaded for analyses can be found in `cellType/rna_seq/hnrnpl/data/sra_list.txt`.
 
-The output files produced by the pipeline were compared using R scripts within the `Compilation` folder.
+The output files produced by the pipeline were compared using R scripts within the `Compilation` folder. Figures and other outputs produced by these R scripts can be found in the `Compilation` folder. 
 ### Gene expression comparisons
 * `10_compilation_expr_FDR_pt1_L2FC_inc.R` contains code to compare gene expression changes between datasets.  
 * `2_gseaForAllDatasets.R` is to do GSEA analysis using the `fgsea` R package for differentially expressed genes for all datasets.  
